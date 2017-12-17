@@ -1,0 +1,53 @@
+header {
+    text-align: center;
+    color: indigo;
+    background-image: unset;
+    background-size: 1000px auto;
+}
+
+header .hero-spacer {
+    background: url(../img/header-bg.png) no-repeat scroll center center
+}
+
+header .intro-text {
+    padding-top: 150px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header .intro-text .intro-heading {
+    text-transform: unset;
+}
+
+header .intro-text .intro-lead-in {
+    margin-top: 0;
+}
+
+header .hero-spacer {
+    height: 350px;
+}
+
+@media(min-width:992px) {
+    aside.sponsors img {
+        margin: 50px auto;
+    }
+}
+
+section.sponsors img {
+    margin-top: 50px;
+}
+
+section.sponsors .heading {
+    margin-bottom: 0;
+}
+
+section.sponsors div.contents {
+    padding-top: 30px;
+}
+
+section.contact .text-muted {
+    color: #FFFFFF;
+}

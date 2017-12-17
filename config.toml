@@ -1,0 +1,176 @@
+baseURL = "https://tip.gophercon.is/"
+languageCode = "en-us"
+title = "GopherCon Iceland"
+theme = "hugo-agency-theme"
+canonifyurls = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Link custom assets relative to /static
+  custom_css = ["/css/custom.css"]
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [our homepage](/)"
+
+  # Navigation
+  [params.navigation]
+    brand = "GopherCon Iceland"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    sponsors = "Sponsors"
+    speakers = "Speakers"
+    schedule = "Schedule"
+    team = "Team"
+    contact = "Contact"
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+
+
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+
+    title = "GopherCon Iceland"
+    subtitle = "The first European GopherCon"
+    buttonLeftText = "Become a speaker"
+    buttonLeftLink = "#speakers"
+    buttonRightText = "Become a sponsor"
+    buttonRightLink = "#sponsors"
+
+  [params.speakers]
+    enable = true
+    title = "Speakers"
+    subtitle = ""
+    contents = "Become a speaker!<br>Submit your talk here: https://www.papercall.io/gophercon-iceland"
+
+    [params.speakers.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+  # Schedule section
+  [params.schedule]
+    enable = true
+    title = "Schedule"
+    subtitle = "This is the conference schdule"
+    endpoint = "Be part<br>of the<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/schedule'.
+    # Replace them with your own.
+    [[params.schedule.events]]
+      img = "1.jpg"
+      date = "May 31st, 2018"
+      title = "Training day"
+      description = "Come join us for the training sessions, learn Go and a lot more"
+
+    [[params.schedule.events]]
+      img = "2.jpg"
+      date = "June 1st, 2018"
+      title = "First conference day"
+      description = "The conference starts on Friday"
+
+    [[params.schedule.events]]
+      img = "3.jpg"
+      date = "June 2nd, 2018"
+      title = "The second conference day"
+      description = "The conference continues on Saturday"
+
+    [[params.schedule.events]]
+      img = "4.jpg"
+      date = "June 3rd, 2018"
+      title = "Community hack day"
+      description = "Come hack around with us on Go and not only"
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    center = true
+    title = "Team"
+    subtitle = "The gophers behind this event"
+
+    [[params.team.members]]
+      img = "natalie.jpg"
+      name = "Natalie Pistunovich"
+      scope = []
+      social = [
+        ["fa-twitter", "https://twitter.com/NataliePis"],
+        ["fa-github", "https://github.com/Pisush"]
+      ]
+
+    [[params.team.members]]
+      img = "florin.jpg"
+      name = "Florin Pățan"
+      social = [
+        ["fa-twitter", "https://twitter.com/dlsniper"],
+        ["fa-github", "https://github.com/dlsniper"]
+      ]
+
+  [params.sponsors_list]
+    enable = true
+    center = true
+    title = "Sponsors"
+    #description = "These are our cool sponsors"
+    contents = "Help us make this event even better by sponsoring it!"
+  
+  #[[params.sponsors]]
+  #    name = "Your Name here"
+  #    logo = "adsa"
+  #    link = "#adas"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    formEnabled = false
+    title = "Contact us"
+    subtitle  = "Get in touch with us"
+    contents = "If you have any questions, please don't hesitate to contact us"
+    email = "team@gophercon.is"
+
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0.<br>Original theme: https://themes.gohugo.io/agency/<br>Gopher graphics thanks to <a href='https://github.com/ashleymcnamara/gophers'>Ashley McNamara</a>."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/gopherconeu"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/gopherconeu"
+      title = "Github"
+
+    #[[params.footer.quicklinks]]
+    #  text = "Privacy Policy"
+    #  link = "/privacy-policy"
+    #
+    #[[params.footer.quicklinks]]
+    #  text = "Code of Conduct"
+    #  link = "/code-of-conduct"
