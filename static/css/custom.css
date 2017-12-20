@@ -51,3 +51,7 @@ section.sponsors div.contents {
 section.contact .text-muted {
     color: #FFFFFF;
 }
+
+.copyright {
+    text-align: left;
+}

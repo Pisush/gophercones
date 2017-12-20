@@ -101,8 +101,8 @@ googleAnalytics = ""
     [[params.schedule.events]]
       img = "4.jpg"
       date = "June 3rd, 2018"
-      title = "Community hack day"
-      description = "Come hack around with us on Go and not only"
+      title = "Save the date"
+      description = "More details to follow soon"
 
 
   # Team section
@@ -118,16 +118,14 @@ googleAnalytics = ""
       name = "Natalie Pistunovich"
       scope = []
       social = [
-        ["fa-twitter", "https://twitter.com/NataliePis"],
-        ["fa-github", "https://github.com/Pisush"]
+        ["fa-twitter", "https://twitter.com/NataliePis"]
       ]
 
     [[params.team.members]]
       img = "florin.jpg"
       name = "Florin Pățan"
       social = [
-        ["fa-twitter", "https://twitter.com/dlsniper"],
-        ["fa-github", "https://github.com/dlsniper"]
+        ["fa-twitter", "https://twitter.com/dlsniper"]
       ]
 
   [params.sponsors_list]
@@ -135,7 +133,7 @@ googleAnalytics = ""
     center = true
     title = "Sponsors"
     #description = "These are our cool sponsors"
-    contents = "Help us make this event even better by sponsoring it!"
+    contents = "Help us make this event even better by sponsoring it!<br>Please contact us at team [at] gophercon [dot] is for details on how to do this"
   
   #[[params.sponsors]]
   #    name = "Your Name here"
@@ -149,7 +147,7 @@ googleAnalytics = ""
     title = "Contact us"
     subtitle  = "Get in touch with us"
     contents = "If you have any questions, please don't hesitate to contact us"
-    email = "team@gophercon.is"
+    email = "team [at] gophercon [dot] is"
 
 
   # Footer section
@@ -159,13 +157,13 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/gopherconeu"
+      link = "https://twitter.com/gopherconis"
       title = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-github"
-      link = "https://github.com/gopherconeu"
-      title = "Github"
+    #[[params.footer.social]]
+    #  icon = "fa-github"
+    #  link = "https://github.com/gopherconeu"
+    #  title = "Github"
 
     #[[params.footer.quicklinks]]
     #  text = "Privacy Policy"

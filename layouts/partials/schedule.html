@@ -22,9 +22,11 @@
                   <h4>{{ .date }}</h4>
                   <h4 class="subheading">{{ .title | markdownify }}</h4>
                 </div>
+                {{ if .description }}
                 <div class="timeline-body">
                   <p class="text-muted">{{ .description  | markdownify }}</p>
                 </div>
+                {{ end }}
               </div>
             </li>
           {{ end }}
