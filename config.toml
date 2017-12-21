@@ -13,6 +13,7 @@ googleAnalytics = ""
   custom_css = ["/css/custom.css"]
   custom_js  = []
   favicon    = "favicon.ico"
+  cfpLink    = "https://www.papercall.io/gophercon-iceland"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -31,6 +32,7 @@ googleAnalytics = ""
     sponsors = "Sponsors"
     speakers = "Speakers"
     schedule = "Schedule"
+    venue = "Venue"
     team = "Team"
     contact = "Contact"
 
@@ -51,24 +53,20 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
 
-    title = "GopherCon Iceland"
+    title = "GopherCon Iceland 2018"
     subtitle = "The first European GopherCon"
     buttonLeftText = "Become a speaker"
     buttonLeftLink = "#speakers"
     buttonRightText = "Become a sponsor"
     buttonRightLink = "#sponsors"
+    content = "Join us on June 1st and 2nd for two days of Go"
 
   [params.speakers]
     enable = true
     title = "Speakers"
-    subtitle = ""
-    contents = "Become a speaker!<br>Submit your talk here: https://www.papercall.io/gophercon-iceland"
-
-    [params.speakers.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+    subtitle = """These are our awesome speakers!<br/>
+<a href="https://www.papercall.io/gophercon-iceland">Join them</a> by submitting your talk."""
+    contents = ""
 
   # Schedule section
   [params.schedule]
@@ -81,25 +79,25 @@ googleAnalytics = ""
     # All images are stored under 'static/img/schedule'.
     # Replace them with your own.
     [[params.schedule.events]]
-      img = "1.jpg"
+      img = "1.png"
       date = "May 31st, 2018"
       title = "Training day"
       description = "Come join us for the training sessions, learn Go and a lot more"
 
     [[params.schedule.events]]
-      img = "2.jpg"
+      img = ""
       date = "June 1st, 2018"
       title = "First conference day"
       description = "The conference starts on Friday"
 
     [[params.schedule.events]]
-      img = "3.jpg"
+      img = ""
       date = "June 2nd, 2018"
       title = "The second conference day"
       description = "The conference continues on Saturday"
 
     [[params.schedule.events]]
-      img = "4.jpg"
+      img = ""
       date = "June 3rd, 2018"
       title = "Save the date"
       description = "More details to follow soon"
@@ -133,12 +131,28 @@ googleAnalytics = ""
     center = true
     title = "Sponsors"
     #description = "These are our cool sponsors"
-    contents = "Help us make this event even better by sponsoring it!<br>Please contact us at team [at] gophercon [dot] is for details on how to do this"
+    contents = """Help us make this event even better by sponsoring it!<br>Please contact us at "team [at] gophercon [dot] is" for details."""
   
   #[[params.sponsors]]
   #    name = "Your Name here"
   #    logo = "adsa"
   #    link = "#adas"
+
+  [params.venue]
+      enable = true
+      title = "Venue"
+      subtitle = "The conference will take place at Harpa https://en.harpa.is"
+      contents = """Harpa is one of Reykjavik‘s greatest and distinguished landmarks.<br/>
+It is a cultural and social centre in the heart of the city and features stunning views of the surrounding mountains and the North Atlantic Ocean.<br/>
+
+Harpa's residents are:<br/>
+- <a href="https://en.harpa.is/harpa/residents/iceland-symphony-orchestra/">Iceland Symphony Orchestra</a><br/>
+- <a href="https://en.harpa.is/harpa/residents/the-icelandic-opera/">The Icelandic Opera</a><br/>
+- <a href="https://en.harpa.is/harpa/residents/maximus-musicus/">Maximus Musicus</a><br/>
+- <a href="https://en.harpa.is/harpa/residents/the-reykjavik-big-band/">The Reykjavik Big Band</a><br/>
+
+Address: Austurbakki 2, 101 Reykjavík, Iceland<br/>
+Image copyright: https://en.harpa.is"""
 
   # Contact section
   [params.contact]
@@ -146,14 +160,15 @@ googleAnalytics = ""
     formEnabled = false
     title = "Contact us"
     subtitle  = "Get in touch with us"
-    contents = "If you have any questions, please don't hesitate to contact us"
+    contents = """If you have any questions, please don't hesitate to contact us at:<br/> "team [at] gophercon [dot] is" """
     email = "team [at] gophercon [dot] is"
 
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0.<br>Original theme: https://themes.gohugo.io/agency/<br>Gopher graphics thanks to <a href='https://github.com/ashleymcnamara/gophers'>Ashley McNamara</a>."
+    copyrightLeft = "Gopher graphics thanks to <a href='https://github.com/ashleymcnamara/gophers'>Ashley McNamara</a><br>Original theme https://themes.gohugo.io/agency"
+    copyrightRight = "Powered by <a href='https://gohugo.io'>Hugo</a><br>&copy; Copyright 2017 Great Tech Events OÜ"
 
     [[params.footer.social]]
       icon = "fa-twitter"

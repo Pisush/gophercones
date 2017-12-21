@@ -53,6 +53,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.venue.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#venue">{{ with .Site.Params.navigation.venue }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.sponsors_list.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#sponsors">{{ with .Site.Params.navigation.sponsors }}{{ . }}{{ end }}</a>

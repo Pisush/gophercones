@@ -14,8 +14,12 @@
           {{ range $i, $e := .Site.Params.schedule.events }}
             <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
               <div class="timeline-image">
-                {{ $url := printf "img/schedule/%s" .img }}
-                <img class="img-circle img-responsive" src="{{ $url | absURL }}" alt="">
+                {{ if .img }}
+                  {{ $url := printf "img/schedule/%s" .img }}
+                  <img class="img-circle img-responsive" src="{{ $url | absURL }}" alt="">
+                {{ else }}
+                    <img class="img-circle img-responsive" src="/img/1px.png" alt="">
+                {{ end }}
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">

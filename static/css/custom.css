@@ -1,12 +1,12 @@
 header {
     text-align: center;
     color: indigo;
-    background-image: unset;
-    background-size: 1000px auto;
 }
 
 header .hero-spacer {
-    background: url(../img/header-bg.png) no-repeat scroll center center
+    background: url(../img/header-bg.jpg) no-repeat scroll center center;
+    height: 350px;
+    background-size: 90% auto;
 }
 
 header .intro-text {
@@ -24,10 +24,6 @@ header .intro-text .intro-heading {
 
 header .intro-text .intro-lead-in {
     margin-top: 0;
-}
-
-header .hero-spacer {
-    height: 350px;
 }
 
 @media(min-width:992px) {
@@ -48,10 +44,62 @@ section.sponsors div.contents {
     padding-top: 30px;
 }
 
-section.contact .text-muted {
+section#contact {
     color: #FFFFFF;
 }
 
-.copyright {
+section#contact h3 {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.contact-contents {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+span.copyright {
+    display: inline-block;
     text-align: left;
+}
+
+.img-speaker-preview {
+    width: 170px;
+    text-align: center;
+    display: inline;
+}
+
+.img-speaker {
+    border-radius: 50%;
+}
+
+.speakers-caption {
+    text-align: center;
+}
+
+.speakers-image-container {
+    text-align: center;
+}
+
+a {
+    color: indigo;
+    font-weight: bold;
+}
+
+.btn-medium {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.venue-contents {
+    margin-top: 20px;
+}
+
+.btn-hero-left,
+.btn-hero-right {
+    margin-top: 5px;
+}
+
+section#speakers .social-buttons {
+    text-align: center;
 }

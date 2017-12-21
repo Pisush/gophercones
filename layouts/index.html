@@ -19,6 +19,10 @@
       {{ partial "schedule.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.venue.enable }}
+      {{ partial "venue.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.sponsors_list.enable }}
       {{ partial "sponsors.html" . }}
     {{ end }}
@@ -35,9 +39,9 @@
       {{ partial "footer.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.speakers.enable }}
+    {{/*{{ if .Site.Params.speakers.enable }}
       {{ partial "modals.html" . }}
-    {{ end }}
+    {{ end }}*/}}
 
     {{ partial "js.html" . }}
   </body>

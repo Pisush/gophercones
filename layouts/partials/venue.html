@@ -1,0 +1,26 @@
+{{ "<!-- Venue Section -->" | safeHTML }}
+<section id="venue">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.venue.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.venue.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <a href="https://en.harpa.is" class="harpa-link">
+          <div class="venue-image-container">
+          {{ $url := printf "img/venue/harpa1.jpg"  }}
+              <img src="{{ $url | absURL }}" class="img-responsive img-venue-preview" alt="Harpa">
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="section-subheading text-muted venue-contents">{{ .Site.Params.venue.contents | markdownify }}</div>
+        </div>
+    </div>
+  </div>
+</section>

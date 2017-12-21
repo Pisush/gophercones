@@ -6,10 +6,10 @@
       <div class="hero-spacer">&nbsp;</div>
       <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
       {{ if .Site.Params.hero.buttonLeftText }}
-      <a href="{{ .Site.Params.hero.buttonLeftLink }}" class="page-scroll btn btn-xl">{{ .Site.Params.hero.buttonLeftText }}</a>
+      <a href="{{ .Site.Params.hero.buttonLeftLink }}" class="page-scroll btn btn-xl btn-hero-left">{{ .Site.Params.hero.buttonLeftText }}</a>
       {{ end }}
       {{ if .Site.Params.hero.buttonRightText }}
-      <a href="{{ .Site.Params.hero.buttonRightLink }}" class="page-scroll btn btn-xl">{{ .Site.Params.hero.buttonRightText }}</a>
+      <a href="{{ .Site.Params.hero.buttonRightLink }}" class="page-scroll btn btn-xl btn-hero-right">{{ .Site.Params.hero.buttonRightText }}</a>
       {{ end }}
     </div>
   </div>
