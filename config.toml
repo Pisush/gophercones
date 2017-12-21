@@ -56,7 +56,7 @@ googleAnalytics = ""
     title = "GopherCon Iceland 2018"
     subtitle = "The first European GopherCon"
     buttonLeftText = "Become a speaker"
-    buttonLeftLink = "#speakers"
+    buttonLeftLink = "https://www.papercall.io/gophercon-iceland"
     buttonRightText = "Become a sponsor"
     buttonRightLink = "#sponsors"
     content = "Join us on June 1st and 2nd for two days of Go"
@@ -137,7 +137,7 @@ googleAnalytics = ""
   [params.venue]
       enable = true
       title = "Venue"
-      subtitle = "The conference will take place at Harpa https://en.harpa.is"
+      subtitle = """The conference will take place at <a href="https://en.harpa.is">Harpa</a>"""
       contents = """Harpa is one of Reykjavik‘s greatest and distinguished landmarks.<br/>
 It is a cultural and social centre in the heart of the city and features stunning views of the surrounding mountains and the North Atlantic Ocean.<br/>
 
