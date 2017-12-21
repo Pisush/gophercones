@@ -72,12 +72,9 @@ googleAnalytics = ""
   [params.schedule]
     enable = true
     title = "Schedule"
-    subtitle = "This is the conference schdule"
+    subtitle = ""
     endpoint = "Be part<br>of the<br>story!"
 
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/schedule'.
-    # Replace them with your own.
     [[params.schedule.events]]
       img = "1.png"
       date = "May 31st, 2018"
@@ -100,13 +97,12 @@ googleAnalytics = ""
       img = ""
       date = "June 3rd, 2018"
       title = "Save the date"
-      description = "More details to follow soon"
+      description = "More details will follow"
 
 
   # Team section
   [params.team]
     enable = true
-    # Possibility to center items
     center = true
     title = "Team"
     subtitle = "The gophers behind this event"
@@ -131,7 +127,7 @@ googleAnalytics = ""
     center = true
     title = "Sponsors"
     #description = "These are our cool sponsors"
-    contents = """Help us make this event even better by sponsoring it!<br>Please contact us at "team [at] gophercon [dot] is" for details."""
+    contents = """Help us make this event even better.<br>Please contact us at "team [at] gophercon [dot] is" for details."""
   
   #[[params.sponsors]]
   #    name = "Your Name here"
@@ -159,7 +155,7 @@ Image copyright: https://en.harpa.is"""
     enable = true
     formEnabled = false
     title = "Contact us"
-    subtitle  = "Get in touch with us"
+    subtitle  = "<br>"
     contents = """If you have any questions, please don't hesitate to contact us at:<br/> "team [at] gophercon [dot] is" """
     email = "team [at] gophercon [dot] is"
 
@@ -172,7 +168,7 @@ Image copyright: https://en.harpa.is"""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/gopherconis"
+      link = "https://twitter.com/gopherconeu"
       title = "Twitter"
 
     #[[params.footer.social]]
