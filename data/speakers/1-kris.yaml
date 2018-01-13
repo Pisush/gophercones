@@ -1,0 +1,7 @@
+modalID: 3
+name: Kris Nova
+img: kris.jpg
+preview: kris-preview.jpg
+description: Kris Nova is a Senior Developer Advocate for Heptio with an emphasis in containers, infrastructure, and Kubernetes. She loves Go almost as much as climbing mountains.
+social:
+  [["fa-twitter", "https://twitter.com/Kris__Nova"]]

@@ -8,8 +8,12 @@
       </div>
     </div>
     <div class="row">
-      {{ range .Site.Data.speakers }}
+      {{ range $index, $speaker := sort .Site.Data.speakers }}
+        {{ if not (eq .name "Join the speakers" ) }}
         <div class="col-md-4 col-sm-6 speakers-item">
+        {{ else }}
+        <div class="col-md-4 col-sm-6 speakers-item" style="left: 50%;transform: translateX(-50%); ">
+        {{ end }}
           {{/*<a href="#speakersModal{{ .modalID }}" class="speakers-link" data-toggle="modal">*/}}
             <div class="speakers-image-container">
             {{ $url := printf "img/speakers/%s" .preview }}
@@ -30,6 +34,11 @@
           {{ end }}
           </ul>
         </div>
+        {{ if mod $index 3 | eq 2 }}
+        </div>
+        <div class="row">
+        {{ else }}
+        {{ end }}
       {{ end }}
     </div>
   </div>
