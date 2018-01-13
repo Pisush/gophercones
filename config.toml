@@ -4,10 +4,10 @@ title = "GopherCon Iceland"
 theme = "hugo-agency-theme"
 canonifyurls = true
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-112420901-1"
 
 [params]
+  # Enter your tracking code to enable Google Analytics
+  GoogleAnalytics = "UA-112420901-1"
 
   # Link custom assets relative to /static
   custom_css = ["/css/custom.css"]
