@@ -126,3 +126,7 @@ header .intro-text .intro-heading {
 .modal-body {
     text-align: center;
 }
+
+.speakers-modal .row {
+    padding-top: 30px;
+}

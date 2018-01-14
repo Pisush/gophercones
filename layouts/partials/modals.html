@@ -2,16 +2,14 @@
 {{ range .Site.Data.speakers }}
   <div class="speakers-modal modal fade col-lg-4" id="speakersModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content col-lg-12">
-      <div class="close-modal" data-dismiss="modal">
+      <div class="container col-lg-12">
         <div class="lr">
           <div class="rl">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-              </button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              <i class="fa fa-times"></i>
+            </button>
           </div>
         </div>
-      </div>
-      <div class="container col-lg-12">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
