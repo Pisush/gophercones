@@ -39,9 +39,9 @@
       {{ partial "footer.html" . }}
     {{ end }}
 
-    {{/*{{ if .Site.Params.speakers.enable }}
+    {{ if .Site.Params.speakers.enable }}
       {{ partial "modals.html" . }}
-    {{ end }}*/}}
+    {{ end }}
 
     {{ partial "js.html" . }}
   </body>

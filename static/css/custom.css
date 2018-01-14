@@ -69,6 +69,12 @@ span.copyright {
     display: inline;
 }
 
+.img-speaker-modal {
+    width: 225px;
+    text-align: center;
+    display: inline;
+}
+
 .img-speaker {
     border-radius: 50%;
 }
@@ -106,4 +112,17 @@ section#speakers .social-buttons {
 
 header .intro-text .intro-heading {
     font-size: 50px;
+}
+
+.speakers-modal {
+    top: auto;
+    margin: 0 auto;
+}
+
+.rl {
+    float: right;
+}
+
+.modal-body {
+    text-align: center;
 }

@@ -1,22 +1,24 @@
 {{ "<!-- Speakers Modals -->" | safeHTML }}
 {{ range .Site.Data.speakers }}
-  <div class="speakers-modal modal fade" id="speakersModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
+  <div class="speakers-modal modal fade col-lg-4" id="speakersModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content col-lg-12">
       <div class="close-modal" data-dismiss="modal">
         <div class="lr">
           <div class="rl">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">
+                  <i class="fa fa-times"></i>
+              </button>
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container col-lg-12">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
-              <h2>{{ .title  | markdownify }}</h2>
+              <h2>{{ .name  | markdownify }}</h2>
               {{ $url := printf "img/speakers/%s" .img }}
-              <img class="img-responsive img-centered img-speaker" src="{{ $url | absURL }}" alt="">
+              <img class="img-responsive img-centered img-speaker img-speaker-modal" src="{{ $url | absURL }}" alt="">
               <p>{{ .description | markdownify }}</p>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.speakers.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>
           </div>
         </div>

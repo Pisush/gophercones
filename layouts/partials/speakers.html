@@ -14,12 +14,12 @@
         {{ else }}
         <div class="col-md-4 col-sm-6 speakers-item" style="left: 50%;transform: translateX(-50%); ">
         {{ end }}
-          {{/*<a href="#speakersModal{{ .modalID }}" class="speakers-link" data-toggle="modal">*/}}
+          <a href="#speakersModal{{ .modalID }}" class="speakers-link" data-toggle="modal">
             <div class="speakers-image-container">
             {{ $url := printf "img/speakers/%s" .preview }}
             <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="{{ .name }}">
             </div>
-          {{/*</a>*/}}
+          </a>
           <div class="speakers-caption">
             {{ if not (eq .name "Join the speakers" ) }}
             <h4>{{ .name | markdownify }}</h4>
