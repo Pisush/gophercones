@@ -1,7 +1,11 @@
 modalID: 2
 name: Jaana B. Dogan
 img: jbd.png
-preview: jbd.png
-description: Jaana B. Dogan is a software engineer at Google. She is currently working on observability of the Go production services at Google. She has a decade-long experience in building developer platforms and tools.
+preview: jbd-preview.png
+description: >
+  <br>
+  Jaana B. Dogan is a software engineer at Google.<br>
+  She is currently working on observability of the Go production services at Google.
+  She has a decade-long experience in building developer platforms and tools.
 social:
   [["fa-twitter", "https://twitter.com/rakyll"]]

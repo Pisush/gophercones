@@ -28,7 +28,7 @@ canonifyurls = true
   [params.navigation]
     brand = "GopherCon Iceland"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "logo.png"
     sponsors = "Sponsors"
     speakers = "Speakers"
     schedule = "Schedule"
@@ -78,26 +78,26 @@ canonifyurls = true
     [[params.schedule.events]]
       img = "1.png"
       date = "May 31st, 2018"
-      title = "Training day"
+      title = "Training Day"
       description = "Come join us for the training sessions, learn Go and a lot more"
 
     [[params.schedule.events]]
-      img = ""
+      img = "2.png"
       date = "June 1st, 2018"
-      title = "First conference day"
+      title = "Conference Day"
       description = "The conference starts on Friday"
 
     [[params.schedule.events]]
-      img = ""
+      img = "2.png"
       date = "June 2nd, 2018"
-      title = "The second conference day"
+      title = "Second Conference Day"
       description = "The conference continues on Saturday"
 
     [[params.schedule.events]]
-      img = ""
+      img = "1.png"
       date = "June 3rd, 2018"
-      title = "Save the date"
-      description = "More details will follow"
+      title = "Community Day"
+      description = "In collaboration with local community"
 
 
   # Team section
@@ -106,21 +106,6 @@ canonifyurls = true
     center = true
     title = "Team"
     subtitle = "The gophers behind this event"
-
-    [[params.team.members]]
-      img = "natalie.jpg"
-      name = "Natalie Pistunovich"
-      scope = []
-      social = [
-        ["fa-twitter", "https://twitter.com/NataliePis"]
-      ]
-
-    [[params.team.members]]
-      img = "florin.jpg"
-      name = "Florin Pățan"
-      social = [
-        ["fa-twitter", "https://twitter.com/dlsniper"]
-      ]
 
   [params.sponsors_list]
     enable = true

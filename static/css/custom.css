@@ -115,8 +115,7 @@ header .intro-text .intro-heading {
 }
 
 .speakers-modal {
-    top: auto;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .rl {
@@ -129,4 +128,31 @@ header .intro-text .intro-heading {
 
 .speakers-modal .row {
     padding-top: 30px;
+}
+
+.modal-open .modal {
+    top: 10%;
+}
+
+.navbar-brand>img, .navbar-brand>div {
+    display: inline-block;
+}
+.navbar-brand>div {
+    padding-left: 15px;
+}
+
+.navbar-default .nav li a {
+    color: #000000;
+}
+
+.navbar-default.navbar .nav li a:hover, .navbar-default .nav li a:focus {
+    color: #fec900
+}
+
+.navbar-default.navbar-shrink .nav li a {
+    color: #FFFFFF;
+}
+
+.navbar-default.navbar-shrink .nav li a:hover, .navbar-default.navbar-shrink .nav li a:focus {
+    color: #fed136
 }
