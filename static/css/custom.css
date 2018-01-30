@@ -125,6 +125,12 @@ section#speakers .social-buttons {
     text-align: center;
     display: none;
 }
+.speakers-item {
+    margin-bottom: 25px;
+}
+.speakers-container {
+    display: none;
+}
 
 section#workshops .social-buttons {
     text-align: center;
@@ -158,6 +164,9 @@ section#workshops .social-buttons {
 .trainers-item {
     height: 390px;
     margin-bottom: 25px;
+}
+.img-trainer-modal {
+    display: unset;
 }
 
 .venue-contents {

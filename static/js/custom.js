@@ -52,4 +52,5 @@ $(document).ready(function(){
     };
 
     randomizeThings('.trainers-item', '.trainers-row', '.workshops-container');
+    randomizeThings('.speakers-item', '.speakers-row', '.speakers-container');
 });

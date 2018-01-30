@@ -21,8 +21,14 @@
         <div class="col-lg-12 col-lg-offset-0">
             <div class="modal-body">
                 <h2>{{ .name  | markdownify }}</h2>
-                {{ $url := printf "img/trainers/%s" .img }}
-                <img class="img-responsive img-centered img-trainer img-trainer-modal" src="{{ $url | absURL }}" alt="{{ .name }}">
+                <div>
+                    {{ $url := printf "img/trainers/%s" .img }}
+                    <img class="img-responsive img-centered img-trainer img-trainer-modal" src="{{ $url | absURL }}" alt="{{ .name }}">
+                    {{ if eq .modalID 1 }}
+                        {{ $url := printf "img/trainers/myles.jpg" }}
+                        <img class="img-responsive img-centered img-trainer img-trainer-modal" src="{{ $url | absURL }}" alt="Myles McDonnell">
+                    {{ end }}
+                </div>
                 <div class="workshop-details">
                 {{ .workshopDescription | markdownify }}
                 </div>
