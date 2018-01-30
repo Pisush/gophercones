@@ -1,0 +1,66 @@
+modalID: 2
+name: Mark Bates
+img: mark.jpg
+preview: mark-preview.jpg
+description: >
+  <br>
+  Mark Bates is a full stack web developer with over 18 years of experience building<br>
+  high quality scalable applications for companies such as Apple, USA Today, Klarna,<br>
+  and Palm. He has written three books, “Distributed Programming with Ruby”,<br>
+  “Programming in CoffeeScript”, and “Conquering the Command Line”. Mark has spoken at<br>
+  conferences around the world, has led user groups such as Boston Ruby and Boston Golang,<br>
+  and has helped to organize conferences such as GothamGo and GopherCon.<br>
+  <br>
+  Mark is the co-founder of <a href="https://papercall.io">PaperCall.io</a>, a platform for connecting technical events with<br>
+  high quality content and speakers. Mark is also a partner at <a href="https://www.gopherguides.com">Gopher Guides</a>, the industry<br>
+  leader for Go training and conferences.<br>
+  <br>
+  In his spare time Mark leads development of the Go web framework Buffalo.
+workshopTitle: "Daily Go Fundamentals"
+workshopLevel: Beginner
+WorkshopDuration: Full Day
+workshopDescription: >
+  <br>
+  In this one day workshop we will cover the fundamentals of writing Go applications.<br>
+  From making your system is properly configured to concurrency, we’ll spend a full day looking at code examples, working on hands on exercises, and having a good time.<br>
+  By the end of the day, you might not be a Go expert, but you’ll have the confidence to start building your first Go applications, and know where to look when you get stuck.<br>
+  Material for the class will be available online to all participants both during the workshop, as well as after.<br>
+  <br>
+  What will be covered:
+  <ul>
+    <li>Getting Started</li>
+    <li>Syntax and Types</li>
+    <li>Packages</li>
+    <li>Arrays and Iteration</li>
+    <li>Slices</li>
+    <li>Maps</li>
+    <li>Pointers</li>
+    <li>Functions</li>
+    <li>Interfaces</li>
+    <li>Concurrency</li>
+  </ul>
+  <br>
+  This training course is for you because:
+  <ul>
+    <li>Your are new to Go and want to become proficient with Go quickly</li>
+    <li>You have created some Go applications in your organization, and it’s time to take them into production</li>
+    <li>You have a team of developers looking for best practices and advanced techniques to build a sustainable Go ecosystem at your company</li>
+  </ul>
+  <br>
+  Prerequisites:
+  <ul>
+    <li>At least 6 months of programming experience in another language such as Javascript, Ruby, C#, Python, Java etc.</li>
+    <li>Familiarity with basic programing concepts and structures such as variables, loops, conditionals, etc.</li>
+    <li>Comfortable working at the command line.</li>
+  </ul>
+  <br>
+  Materials or Downloads needed in Advance:
+  <ul>
+    <li>Before You Come to Class</li>
+    <li>A Go compiler, installed, and configured to work on your computer</li>
+    <li>Your favorite code editor</li>
+  </ul>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/markbates"]

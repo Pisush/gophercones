@@ -1,49 +1,52 @@
 {{ "<!-- Speakers Grid Section -->" | safeHTML }}
 <section id="speakers" class="bg-light-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ .Site.Params.speakers.title | markdownify }}</h2>
-        <h3 class="section-subheading text-muted">{{ .Site.Params.speakers.subtitle | markdownify }}</h3>
-      </div>
-    </div>
-    <div class="row">
-      {{ range $index, $speaker := sort .Site.Data.speakers }}
-        {{ if not (eq .name "Join the speakers" ) }}
-        <div class="col-md-4 col-sm-6 speakers-item">
-        {{ else }}
-        <div class="col-md-4 col-sm-6 speakers-item" style="left: 50%;transform: translateX(-50%); ">
-        {{ end }}
-        {{ if not (eq .name "Join the speakers" ) }}
-          <a href="#speakersModal{{ .modalID }}" class="speakers-link" data-toggle="modal">
-        {{ end }}
-            <div class="speakers-image-container">
-            {{ $url := printf "img/speakers/%s" .preview }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="{{ .name }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Site.Params.speakers.title | markdownify }}</h2>
+                <h3 class="section-subheading text-muted">{{ .Site.Params.speakers.subtitle | markdownify }}</h3>
             </div>
-        {{ if not (eq .name "Join the speakers" ) }}
-          </a>
-        {{ end }}
-          <div class="speakers-caption">
-            {{ if not (eq .name "Join the speakers" ) }}
-            <h4>{{ .name | markdownify }}</h4>
-            {{ else }}
-            <a href="https://www.papercall.io/gophercon-iceland" class="page-scroll btn btn-xl btn-medium">{{ .name }}</a>
-            {{ end }}
-          </div>
-
-          <ul class="list-inline social-buttons">
-          {{ range .social }}
-              <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
-          {{ end }}
-          </ul>
-        </div>
-        {{ if mod $index 3 | eq 2 }}
         </div>
         <div class="row">
-        {{ else }}
+        {{ range $index, $speaker := sort .Site.Data.speakers }}
+            {{ if not (eq .name "Join the speakers" ) }}
+            <div class="col-md-4 col-sm-6 speakers-item">
+            {{ else }}
+            <div class="col-md-4 col-sm-6 speakers-item" style="left: 50%;transform: translateX(-50%); ">
+            {{ end }}
+                {{ if not (eq .name "Join the speakers" ) }}
+                <a data-featherlight="#speakersModal{{ .modalID }}" href="javascript:" class="speakers-link">
+                {{ end }}
+                    <div class="speakers-image-container">
+                        {{ $url := printf "img/speakers/%s" .preview }}
+                        <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="{{ .name }}">
+                    </div>
+                {{ if not (eq .name "Join the speakers" ) }}
+                    </a>
+                {{ end }}
+                <div class="speakers-caption">
+                    {{ if not (eq .name "Join the speakers" ) }}
+                    <h4>{{ .name | markdownify }}</h4>
+                    {{ else }}
+                    <a href="https://www.papercall.io/gophercon-iceland" class="page-scroll btn btn-xl btn-medium">{{ .name }}</a>
+                    {{ end }}
+                </div>
+
+                <ul class="list-inline social-buttons">
+                {{ range $network := .social}}
+                    {{ range $network.handles }}
+                        <li><a href="{{ . }}"><i class="fa {{ $network.type }}"></i></a></li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+            </div>
+            {{ if mod $index 3 | eq 2 }}
+            </div>
+            <br><br>
+            <div class="row">
+            {{ end }}
         {{ end }}
-      {{ end }}
+            </div>
+        </div>
     </div>
-  </div>
 </section>

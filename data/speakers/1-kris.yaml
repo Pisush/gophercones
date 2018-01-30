@@ -8,4 +8,6 @@ description: >
   with an emphasis in containers, infrastructure, and Kubernetes.
   She loves Go almost as much as climbing mountains.
 social:
-  [["fa-twitter", "https://twitter.com/Kris__Nova"]]
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/Kris__Nova"]

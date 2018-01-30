@@ -1,0 +1,22 @@
+modalID: 5
+name: Mat Ryer & David Hernandez
+img: matdavid.jpg
+preview: matdavid-preview.jpg
+description: >
+  <br>
+  Mat Ryer (<a href="https://twitter.com/matryer">@matryer</a>) and David Hernandez (<a href="https://twitter.com/dahernan">@dahernan</a>) founded Machine Box to help developers utilise<br>
+  state-of-the-art Machine Learning technology within their own products and services.<br>
+  They have spent many years building things with Go and between them have spoken at<br>
+  numerous Go conferences around the world and contributed lots of code in open-source projects.
+workshopTitle: "Learn about and explore Machine Learning in Go"
+workshopLevel: Beginner in ML, any level Go
+WorkshopDuration: Half Day
+workshopDescription: >
+  <br>
+  We will show you how to take advantage of Machine Learning capabilities to power up your own apps.<br>
+  Learn about the kinds of problems Machine Learning is good at, and what it cannot do.<br>
+  We will explore the core concepts around this mysterious technology, and build a real solution from scratch.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/matryer", "https://twitter.com/dahernan"]

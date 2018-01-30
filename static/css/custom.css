@@ -1,29 +1,71 @@
+a {
+    color: indigo;
+    font-weight: bold;
+}
+
+.rl {
+    float: right;
+}
+
+.modal-body {
+    text-align: center;
+}
+.modal-open .modal {
+    top: 10%;
+    z-index: 1050;
+}
+.modal {
+    z-index: 0;
+}
+
+.btn-medium {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.navbar-brand>img, .navbar-brand>div {
+    display: inline-block;
+}
+.navbar-brand>div {
+    padding-left: 15px;
+}
+.navbar-default .nav li a {
+    color: #000000;
+}
+.navbar-default.navbar .nav li a:hover, .navbar-default .nav li a:focus {
+    color: #fec900
+}
+.navbar-default.navbar-shrink .nav li a {
+    color: #FFFFFF;
+}
+.navbar-default.navbar-shrink .nav li a:hover, .navbar-default.navbar-shrink .nav li a:focus {
+    color: #fed136
+}
+
 header {
     text-align: center;
     color: indigo;
 }
-
-header .hero-spacer {
-    background: url(../img/header-bg.jpg) no-repeat scroll center center;
-    height: 350px;
-    background-size: 90% auto;
+header .hero-spacer img {
+    width: 100%;
+    margin: 20px auto;
 }
-
 header .intro-text {
     padding-top: 150px;
 }
-
 header .intro-text .intro-lead-in {
+    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
 header .intro-text .intro-heading {
     text-transform: unset;
+    font-size: 50px;
 }
 
-header .intro-text .intro-lead-in {
-    margin-top: 0;
+.btn-hero-left,
+.btn-hero-right {
+    margin-top: 5px;
 }
 
 @media(min-width:992px) {
@@ -35,11 +77,9 @@ header .intro-text .intro-lead-in {
 section.sponsors img {
     margin-top: 50px;
 }
-
 section.sponsors .heading {
     margin-bottom: 0;
 }
-
 section.sponsors div.contents {
     padding-top: 30px;
 }
@@ -47,12 +87,10 @@ section.sponsors div.contents {
 section#contact {
     color: #FFFFFF;
 }
-
 section#contact h3 {
     color: #FFFFFF;
     font-size: 22px;
 }
-
 .contact-contents {
     font-size: 18px;
     color: #FFFFFF;
@@ -63,10 +101,67 @@ span.copyright {
     text-align: left;
 }
 
+section#speakers .social-buttons {
+    text-align: center;
+}
+.img-speaker {
+    border-radius: 50%;
+}
 .img-speaker-preview {
     width: 170px;
     text-align: center;
     display: inline;
+}
+.speakers-caption {
+    text-align: center;
+}
+.speakers-image-container {
+    text-align: center;
+}
+.speakers-modal {
+    margin: auto;
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+    display: none;
+}
+
+section#workshops .social-buttons {
+    text-align: center;
+}
+.trainers-caption h3 {
+    text-transform: unset;
+    vertical-align: center;
+    height: 80px;
+}
+.trainers-caption h4 {
+    text-transform: unset;
+    height: 40px;
+}
+.img-trainer {
+    border-radius: 50%;
+}
+.img-trainer-preview {
+    width: 170px;
+    text-align: center;
+    display: inline;
+}
+.trainers-caption {
+    text-align: center;
+}
+.trainers-image-container {
+    text-align: center;
+}
+.trainers-modal {
+    float: unset;
+}
+.trainers-item {
+    height: 390px;
+    margin-bottom: 25px;
+}
+
+.venue-contents {
+    margin-top: 20px;
 }
 
 .img-speaker-modal {
@@ -75,84 +170,10 @@ span.copyright {
     display: inline;
 }
 
-.img-speaker {
-    border-radius: 50%;
+.workshop-details {
+    text-align: left;
+    margin-bottom: 40px;
 }
-
-.speakers-caption {
-    text-align: center;
-}
-
-.speakers-image-container {
-    text-align: center;
-}
-
-a {
-    color: indigo;
-    font-weight: bold;
-}
-
-.btn-medium {
-    font-size: 16px;
-    padding: 10px 20px;
-}
-
-.venue-contents {
-    margin-top: 20px;
-}
-
-.btn-hero-left,
-.btn-hero-right {
-    margin-top: 5px;
-}
-
-section#speakers .social-buttons {
-    text-align: center;
-}
-
-header .intro-text .intro-heading {
-    font-size: 50px;
-}
-
-.speakers-modal {
-    margin: auto;
-}
-
-.rl {
-    float: right;
-}
-
-.modal-body {
-    text-align: center;
-}
-
-.speakers-modal .row {
-    padding-top: 30px;
-}
-
-.modal-open .modal {
-    top: 10%;
-}
-
-.navbar-brand>img, .navbar-brand>div {
-    display: inline-block;
-}
-.navbar-brand>div {
-    padding-left: 15px;
-}
-
-.navbar-default .nav li a {
-    color: #000000;
-}
-
-.navbar-default.navbar .nav li a:hover, .navbar-default .nav li a:focus {
-    color: #fec900
-}
-
-.navbar-default.navbar-shrink .nav li a {
-    color: #FFFFFF;
-}
-
-.navbar-default.navbar-shrink .nav li a:hover, .navbar-default.navbar-shrink .nav li a:focus {
-    color: #fed136
+.workshops-container {
+    display: none;
 }

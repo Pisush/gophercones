@@ -1,0 +1,24 @@
+modalID: 4
+name: Francesc Campoy
+img: francesc.jpg
+preview: francesc-preview.jpg
+description: >
+  <br>
+  VP of Developer Relations at source{d}.<br>
+  Previously Developer Advocate at Google working with the Go team and and Google Cloud.<br>
+  Creator of the YouTube series <a href="justforfunc.com">justforfunc.com</a>.
+workshopTitle: "Go Tooling in Action"
+workshopLevel: Anyone writing Go and wanting to improve their developer experience
+WorkshopDuration: Full Day
+workshopDescription: >
+  <br>
+  A workshop covering all the tools gophers use in their day to day life. We will cover:<br>
+  <ul>
+    <li>Source code management: go, go list, gofmt, goimports, ...</li>
+    <li>Building artifacts from code: cross compilation, docker, ...</li>
+    <li>Dynamic program analysis: delve, pprof, go trace, ...</li>
+  </ul>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/francesc"]

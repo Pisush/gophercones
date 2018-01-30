@@ -1,4 +1,4 @@
-modalID: 92
+modalID: 2
 name: Florin Pățan
 img: florin.jpg
 preview: florin-preview.jpg
@@ -7,4 +7,6 @@ description: >
   Florin is Gopher, and a bugs creator.
   He is co-organizing the London Golang User Group, helps Gophers on Slack, and engages with GoLand users and developers.
 social:
-  [["fa-twitter", "https://twitter.com/dlsniper"]]
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/dlsniper"]

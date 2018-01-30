@@ -1,11 +1,13 @@
 {{ "<!-- jQuery -->" | safeHTML }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+{{ "<!-- Custom Theme -->" | safeHTML }}
+<script src="{{ "/js/custom.js"| absURL }}"></script>
+
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
 {{ "<!-- Bootstrap Core -->" | safeHTML }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-{{ "<!-- Custom Theme -->" | safeHTML }}
-<script src="{{ "js/agency.js"| absURL }}"></script>
 
 {{ range .Site.Params.custom_js }}
   <script src="{{ . | absURL }}"></script>

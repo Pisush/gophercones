@@ -7,4 +7,6 @@ description: >
   Peter Bourgon is an experienced typist and Gopher.<br>
   He currently types for Fastly. Previously, he has typed for Weaveworks, SoundCloud, and Bloomberg.
 social:
-  [["fa-twitter", "https://twitter.com/peterbourgon"]]
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/peterbourgon"]

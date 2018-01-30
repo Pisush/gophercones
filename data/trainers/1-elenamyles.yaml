@@ -1,0 +1,41 @@
+modalID: 1
+name: Elena Grahovac & Myles McDonnell
+img: elena.jpg
+preview: elena-preview.jpg
+description: >
+  Elena is a Senior Go Developer at DCMN and a co-host of the GolangShow podcast.<br>
+  She is a fan of Go and Kubernetes. Elena designs and writes microservices and<br>
+  is passionate about software architecture and site reliability engineering topics.
+  <br>
+  <br>
+  Myles is software engineer and development team lead with ~20 years commercial<br>
+  experience building systems in finance, gaming, retail and shipping.<br>
+  When he is not coding he enjoy's riding his motorcycle and jumping around to techno,<br>
+  although never at the same time!
+workshopTitle: "Production-ready microservices with Go and Kubernetes"
+workshopLevel: Beginner
+WorkshopDuration: Full Day
+workshopDescription: >
+  <br>
+  During the workshop, we will discuss how to design stable, scalable, reliable and performant services.<br>
+  Step by step, we will write a few services from scratch and prepare them for the deployment.<br>
+  We will try continuous integration and continuous delivery.<br>
+  At the end of the workshop, the participants will be able to run their own services on the prepared Kubernetes platform.<br>
+  This platform will be available for a couple of weeks for further experiments and questions.<br>
+  <br>
+  If you would like to join this workshop as a participant, you need to install:<br>
+  <ul>
+    <li>a stable version of Go (https://golang.org, the newest version is recommended) and any IDE or editor to be able to write in Go;</li>
+    <li>Docker Community Edition (https://www.docker.com/community-edition) - to build and run containers with the services;</li>
+    <li>a free GitHub account - to store and publish the source code;</li>
+    <li>a Git client configured to work with your GitHub account.</li>
+  </ul>
+  During the workshop, we will also install some additional tools to work with Kubernetes.<br>
+  If you have any questions, feel free to contact Elena directly: elena@grahovac.me.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/webdeva"]
+  -
+    type: "fa-linkedin"
+    handles: ["https://www.linkedin.com/in/mylesmcdonnell/"]

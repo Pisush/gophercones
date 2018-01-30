@@ -1,0 +1,23 @@
+modalID: 3
+name: William Kennedy
+img: wkennedy.jpg
+preview: wkennedy-preview.jpg
+description: >
+  <br>
+  William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile,<br>
+  web, and systems development company.<br>
+  He is also a co-author of the book Go in Action, the author of the blog <a href="http://goinggo.net">GoingGo.Net</a>,<br>
+  and a founding member of GoBridge which is working to increase Go adoption through diversity.
+workshopTitle: "Advanced Ultimate Go"
+workshopLevel: Intermediate and Advanced
+WorkshopDuration: Full Day
+workshopDescription: >
+  <br>
+  Learn aspects of the Go specification, implementation and idioms to help make you a better Go developer.<br>
+  Learn guidelines and best practices from years of experience coding and solving problems in Go.<br>
+  If you love the Go In Action book, this class makes it come to life.<br>
+  This class will help you read and understand more code for the conference.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/goinggodotnet"]

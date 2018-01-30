@@ -1,4 +1,6 @@
+#baseURL = "https://localhost:1313/"
 baseURL = "https://tip.gophercon.is/"
+#baseURL = "https://gophercon.is/"
 languageCode = "en-us"
 title = "GopherCon Iceland"
 theme = "hugo-agency-theme"
@@ -8,6 +10,7 @@ canonifyurls = true
 [params]
   # Enter your tracking code to enable Google Analytics
   GoogleAnalytics = "UA-112420901-1"
+  name = "Great Tech Events OÜ"
 
   # Link custom assets relative to /static
   custom_css = ["/css/custom.css"]
@@ -30,6 +33,7 @@ canonifyurls = true
     # Optional logo as brand stored in img/
     logo = "logo.png"
     sponsors = "Sponsors"
+    trainers = "Workshops"
     speakers = "Speakers"
     schedule = "Schedule"
     venue = "Venue"
@@ -50,9 +54,6 @@ canonifyurls = true
 
 
   [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
-
     title = "GopherCon Iceland 2018"
     subtitle = "The first European GopherCon"
     buttonLeftText = "Become a speaker"
@@ -64,11 +65,17 @@ canonifyurls = true
   [params.speakers]
     enable = true
     title = "Speakers"
-    subtitle = """These are our awesome speakers!<br/>
-<a href="https://www.papercall.io/gophercon-iceland">Join them</a> by submitting your talk."""
+    subtitle = """They are our awesome speakers.<br/>
+<a href="https://www.papercall.io/gophercon-iceland">Join them</a> by submitting your talk!"""
     contents = ""
 
-  # Schedule section
+  [params.trainers]
+    enable = true
+    title = "Workshops"
+    subtitle = """Want to learn Go? Or improve your Go skills?<br>
+Attend these training sessions and learn from the one of the best Gophers."""
+    contents = ""
+
   [params.schedule]
     enable = true
     title = "Schedule"
@@ -79,28 +86,26 @@ canonifyurls = true
       img = "1.png"
       date = "May 31st, 2018"
       title = "Training Day"
-      description = "Come join us for the training sessions, learn Go and a lot more"
+      description = "Come join us for the training sessions, learn Go and a lot more. <a href='#workshops'>See the workshops</a>."
 
     [[params.schedule.events]]
       img = "2.png"
       date = "June 1st, 2018"
       title = "Conference Day"
-      description = "The conference starts on Friday"
+      description = "The conference starts on Friday."
 
     [[params.schedule.events]]
       img = "2.png"
       date = "June 2nd, 2018"
       title = "Second Conference Day"
-      description = "The conference continues on Saturday"
+      description = "The conference continues on Saturday."
 
     [[params.schedule.events]]
       img = "1.png"
       date = "June 3rd, 2018"
       title = "Community Day"
-      description = "In collaboration with local community"
+      description = "In collaboration with local community."
 
-
-  # Team section
   [params.team]
     enable = true
     center = true
@@ -113,11 +118,6 @@ canonifyurls = true
     title = "Sponsors"
     #description = "These are our cool sponsors"
     contents = """Help us make this event even better.<br>Please contact us at "team [at] gophercon [dot] is" for details."""
-  
-  #[[params.sponsors]]
-  #    name = "Your Name here"
-  #    logo = "adsa"
-  #    link = "#adas"
 
   [params.venue]
       enable = true
