@@ -41,6 +41,9 @@ a {
 .navbar-default.navbar-shrink .nav li a:hover, .navbar-default.navbar-shrink .nav li a:focus {
     color: #fed136
 }
+.nav>li>a {
+  padding: 10px 11px;
+}
 
 header {
     text-align: center;
@@ -60,7 +63,7 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
     text-transform: unset;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .btn-hero-left,
@@ -185,4 +188,8 @@ section#workshops .social-buttons {
 }
 .workshops-container {
     display: none;
+}
+
+.coc-contact li {
+    list-style-position: inside;
 }

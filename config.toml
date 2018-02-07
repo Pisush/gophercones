@@ -1,5 +1,5 @@
-#baseURL = "https://localhost:1313/"
-baseURL = "https://tip.gophercon.is/"
+baseURL = "https://localhost:1313/"
+#baseURL = "https://tip.gophercon.is/"
 #baseURL = "https://gophercon.is/"
 languageCode = "en-us"
 title = "GopherCon Iceland"
@@ -38,6 +38,7 @@ canonifyurls = true
     schedule = "Schedule"
     venue = "Venue"
     team = "Team"
+    coc = "Code of Conduct"
     contact = "Contact"
 
     # prepended links
@@ -55,7 +56,7 @@ canonifyurls = true
 
   [params.hero]
     title = "GopherCon Iceland 2018"
-    subtitle = "The first European GopherCon"
+    subtitle = "The first European GopherCon<br>May, 31st - June, 3rd"
     buttonLeftText = "Become a speaker"
     buttonLeftLink = "https://www.papercall.io/gophercon-iceland"
     buttonRightText = "Become a sponsor"
@@ -73,7 +74,8 @@ canonifyurls = true
     enable = true
     title = "Workshops"
     subtitle = """Want to learn Go? Or improve your Go skills?<br>
-Attend these training sessions and learn from the one of the best Gophers."""
+All these training sessions will take place on May 31.<br>
+Attend one of them and learn from the one of the best Gophers!"""
     contents = ""
 
   [params.schedule]
@@ -111,6 +113,24 @@ Attend these training sessions and learn from the one of the best Gophers."""
     center = true
     title = "Team"
     subtitle = "The gophers behind this event"
+
+  [params.coc]
+    enable = true
+    title = "Code of Conduct"
+    subtitle = """<br>
+At GopherCon Europe, we believe that everyone should enjoy the conference, have equal opportunities to learn, and be part of the Go community.<br>
+If you encounter any issues preventing you to do this, please contact us at "<b>team [at] gophercon [dot] is</b>" and we'll do our best to help you.<br>
+All issues will be anonymous when being dealt with.<br>
+<br>
+We follow Go's Code of Conduct, to view it, please <a href="https://golang.org/conduct">click here</a>.<br>
+<br>
+A phone number will be provided for the duration of the conference.<br>
+You can also reach us in private on Twitter or at the <a href="https://invite.slack.golangbridge.org/">Gophers Slack</a>:<br>
+<ul class="coc-contact">
+ <li>Natalie Pistunovich | twitter: <a href="https://twitter.com/nataliepis">@nataliepis</a> | slack: <a href="https://gophers.slack.com/messages/D152YD9DY/">@natalie</a></li>
+ <li>Florin Pățan | twitter: <a href="https://twitter.com/dlsniper">@dlsniper</a> | slack: <a href="https://gophers.slack.com/messages/D18TKNS8P/">@dlsniper</a></li>
+</ul>
+"""
 
   [params.sponsors_list]
     enable = true

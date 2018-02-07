@@ -84,6 +84,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.coc.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#code-of-conduct">{{ with .Site.Params.navigation.coc }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ range .Site.Menus.postpend }}
           <li>
             <a href="{{ .URL }}">{{ .Name }}</a>

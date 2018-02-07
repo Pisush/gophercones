@@ -17,8 +17,8 @@ description: >
   <br>
   In his spare time Mark leads development of the Go web framework Buffalo.
 workshopTitle: "Daily Go Fundamentals"
-workshopLevel: Beginner
-WorkshopDuration: Full Day
+workshopLevel: "Beginner"
+workshopDuration: "9-17 (full day)"
 workshopDescription: >
   <br>
   In this one day workshop we will cover the fundamentals of writing Go applications.<br>

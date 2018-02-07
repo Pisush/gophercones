@@ -39,13 +39,16 @@
       {{ partial "contact.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.coc.enable }}
+      {{ partial "coc.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.footer.enable }}
       {{ partial "footer.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.speakers.enable }}
-      {{ partial "modals.html" . }}
-    {{ end }}
+
+    {{ partial "modals.html" . }}
 
     {{ partial "js.html" . }}
   </body>

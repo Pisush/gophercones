@@ -8,8 +8,8 @@ description: >
   Previously Developer Advocate at Google working with the Go team and and Google Cloud.<br>
   Creator of the YouTube series <a href="justforfunc.com">justforfunc.com</a>.
 workshopTitle: "Go Tooling in Action"
-workshopLevel: Anyone writing Go and wanting to improve their developer experience
-WorkshopDuration: Full Day
+workshopLevel: "Anyone writing Go and wanting to improve their developer experience"
+workshopDuration: "9-17 (full day)"
 workshopDescription: >
   <br>
   A workshop covering all the tools gophers use in their day to day life. We will cover:<br>

@@ -9,8 +9,8 @@ description: >
   They have spent many years building things with Go and between them have spoken at<br>
   numerous Go conferences around the world and contributed lots of code in open-source projects.
 workshopTitle: "Learn about and explore Machine Learning in Go"
-workshopLevel: Beginner in ML, any level Go
-WorkshopDuration: Half Day
+workshopLevel: "Beginner in ML, any level Go"
+workshopDuration: "9-12 (half day)"
 workshopDescription: >
   <br>
   We will show you how to take advantage of Machine Learning capabilities to power up your own apps.<br>

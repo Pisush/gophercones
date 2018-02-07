@@ -13,8 +13,8 @@ description: >
   When he is not coding he enjoy's riding his motorcycle and jumping around to techno,<br>
   although never at the same time!
 workshopTitle: "Production-ready microservices with Go and Kubernetes"
-workshopLevel: Beginner
-WorkshopDuration: Full Day
+workshopLevel: "Beginner"
+workshopDuration: "9-17 (full day)"
 workshopDescription: >
   <br>
   During the workshop, we will discuss how to design stable, scalable, reliable and performant services.<br>

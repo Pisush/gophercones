@@ -20,7 +20,8 @@
     <div class="row">
         <div class="col-lg-12 col-lg-offset-0">
             <div class="modal-body">
-                <h2>{{ .name  | markdownify }}</h2>
+                <h2>{{ .workshopTitle  | markdownify }}</h2>
+                <h3>{{ .name  | markdownify }}</h3>
                 <div>
                     {{ $url := printf "img/trainers/%s" .img }}
                     <img class="img-responsive img-centered img-trainer img-trainer-modal" src="{{ $url | absURL }}" alt="{{ .name }}">
@@ -30,7 +31,9 @@
                     {{ end }}
                 </div>
                 <div class="workshop-details">
-                {{ .workshopDescription | markdownify }}
+                    <h5>Level: {{ .workshopLevel }}</h5>
+                    <h5>Duration: {{ .workshopDuration }}</h5>
+                    {{ .workshopDescription | markdownify }}
                 </div>
                 <h4>About {{ .name | markdownify }}</h4>
                 <p>{{ .description | markdownify }}</p>
