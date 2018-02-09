@@ -1,4 +1,19 @@
 $(document).ready(function(){
+    var randomizeThings = function(what, where, toggled) {
+      var div = $(what).toArray();
+      while(div.length > 0) {
+        var idx = Math.floor((Math.random() * (div.length)));
+        var element = div.splice(idx, 1);
+        $(where).append(element[0]);
+      }
+
+      $(toggled).toggle()
+    };
+
+    randomizeThings('.speakers-item', '.speakers-row', '.speakers-container');
+    randomizeThings('.mcs-item', '.mcs-row', '.mcs-container');
+    randomizeThings('.trainers-item', '.trainers-row', '.workshops-container');
+
     // Smooth scrolling via animate()
     $("a").on('click', function(event) {
         if (this.hash && window.location.pathname === "/") {
@@ -39,18 +54,4 @@ $(document).ready(function(){
     $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
     });
-
-    var randomizeThings = function(what, where, toggled) {
-        var div = $(what).toArray();
-        while(div.length > 0) {
-            var idx = Math.floor((Math.random() * (div.length)));
-            var element = div.splice(idx, 1);
-            $(where).append(element[0]);
-        }
-
-        $(toggled).toggle()
-    };
-
-    randomizeThings('.trainers-item', '.trainers-row', '.workshops-container');
-    randomizeThings('.speakers-item', '.speakers-row', '.speakers-container');
 });

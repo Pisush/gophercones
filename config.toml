@@ -32,14 +32,16 @@ canonifyurls = true
     brand = "GopherCon Iceland"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    sponsors = "Sponsors"
-    trainers = "Workshops"
     speakers = "Speakers"
+    mcs = "MCs"
+    trainers = "Workshops"
+    tickets = "Tickets"
     schedule = "Schedule"
     venue = "Venue"
+    sponsors = "Sponsors"
     team = "Team"
-    coc = "Code of Conduct"
     contact = "Contact"
+    coc = "Code of Conduct"
 
     # prepended links
     #[[menu.prepend]]
@@ -70,12 +72,26 @@ canonifyurls = true
 <a href="https://www.papercall.io/gophercon-iceland">Join them</a> by submitting your talk!"""
     contents = ""
 
+  [params.mcs]
+    enable = true
+    title = "MCs"
+    subtitle = """We couldn't have a conference without MCs.<br>
+All the pressure of introducing our speakers will rest on their shoulders!"""
+    contents = ""
+
   [params.trainers]
     enable = true
     title = "Workshops"
     subtitle = """Want to learn Go? Or improve your Go skills?<br>
 All these training sessions will take place on May 31.<br>
 Attend one of them and learn from the one of the best Gophers!"""
+    contents = ""
+
+  [params.tickets]
+    enable = true
+    title = "Tickets"
+    subtitle = """Tickets are not on sale yet, we'll announce this in the very near future.<br>
+Please follow us on Twitter or check back here soon for updates about this."""
     contents = ""
 
   [params.schedule]

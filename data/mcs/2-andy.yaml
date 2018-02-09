@@ -1,0 +1,14 @@
+modalID: 2
+name: Andrew Bonventre
+img: andy.jpg
+preview: andy-preview.jpg
+description: >
+  <br>
+  Andrew Bonventre is a senior engineer on the Go team out of the Google NYC office.<br>
+  Previously he held positions as a lead at Palantir Technologies, head of Product Engineering at Poptip,<br>
+  and head of Mobile at Stamped. He is the creator of Google Forms and led the recent UI overhaul of Gerrit,<br>
+  the code review system used by the majority of open source projects at Google (including Go).
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/andybons"]

@@ -48,9 +48,21 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.mcs.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#mcs">{{ with .Site.Params.navigation.mcs }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.trainers.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#workshops">{{ with .Site.Params.navigation.trainers }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.tickets.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#tickets">{{ with .Site.Params.navigation.tickets }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 

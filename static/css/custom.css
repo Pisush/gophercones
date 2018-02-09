@@ -29,6 +29,11 @@ a {
 .navbar-brand>div {
     padding-left: 15px;
 }
+@media (min-width: 768px) {
+    .navbar-nav>li {
+        margin-top: 8px;
+    }
+}
 .navbar-default .nav li a {
     color: #000000;
 }
@@ -42,7 +47,7 @@ a {
     color: #fed136
 }
 .nav>li>a {
-  padding: 10px 11px;
+  padding: 10px 4px;
 }
 
 header {
@@ -134,6 +139,47 @@ section#speakers .social-buttons {
 .speakers-container {
     display: none;
 }
+.img-speaker-modal {
+    width: 225px;
+    text-align: center;
+    display: inline;
+}
+
+section#mcs .social-buttons {
+    text-align: center;
+}
+.img-mc {
+    border-radius: 50%;
+}
+.img-mc-preview {
+    width: 170px;
+    text-align: center;
+    display: inline;
+}
+.mc-caption {
+    text-align: center;
+}
+.mcs-image-container {
+    text-align: center;
+}
+.mcs-modal {
+    margin: auto;
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+    display: none;
+}
+.mcs-item {
+    margin-bottom: 25px;
+}
+.mcs-container {
+    display: none;
+}
+.img-mc-modal {
+    width: 225px;
+    text-align: center;
+    display: inline;
+}
 
 section#workshops .social-buttons {
     text-align: center;
@@ -174,12 +220,6 @@ section#workshops .social-buttons {
 
 .venue-contents {
     margin-top: 20px;
-}
-
-.img-speaker-modal {
-    width: 225px;
-    text-align: center;
-    display: inline;
 }
 
 .workshop-details {

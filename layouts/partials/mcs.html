@@ -1,0 +1,38 @@
+{{ "<!-- MCs Grid Section -->" | safeHTML }}
+<section id="mcs" class="bg-light-gray">
+    <div class="container mcs-container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Site.Params.mcs.title }}</h2>
+                <h3 class="section-subheading text-muted">{{ .Site.Params.mcs.subtitle | markdownify }}</h3>
+            </div>
+        </div>
+
+        <div class="row mcs-row">
+        <div class="col-lg-offset-1">
+            &nbsp
+        </div>
+        {{ range sort .Site.Data.mcs }}
+            <div class="col-lg-offset-1 col-md-4 col-sm-6 mcs-item">
+                <a data-featherlight="#mcsModal{{ .modalID }}" href="javascript:" class="mcs-link">
+                    <div class="mcs-image-container">
+                        {{ $url := printf "img/mcs/%s" .preview }}
+                        <img src="{{ $url | absURL }}" class="img-responsive img-circle img-mc-preview" alt="{{ .name }}">
+                    </div>
+                </a>
+                <div class="mc-caption">
+                    <h4>{{ .name | markdownify }}</h4>
+                </div>
+
+                <ul class="list-inline social-buttons">
+                {{ range $network := .social}}
+                    {{ range $network.handles }}
+                        <li><a href="{{ . }}"><i class="fa {{ $network.type }}"></i></a></li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+        </div>
+    </div>
+</section>

@@ -9,7 +9,7 @@
         </div>
 
         <div class="row speakers-row">
-        {{ range $index, $speaker := sort .Site.Data.speakers }}
+        {{ range sort .Site.Data.speakers }}
             <div class="col-md-4 col-sm-6 speakers-item">
                 <a data-featherlight="#speakersModal{{ .modalID }}" href="javascript:" class="speakers-link">
                     <div class="speakers-image-container">

@@ -1,0 +1,14 @@
+modalID: 1
+name: Cassandra Salisbury
+img: cassandra.jpg
+preview: cassandra-preview.jpg
+description: >
+  <br>
+  Currently works on the open source strategy team at Google as a developer relations program manager on the Go team.<br>
+  She is a core team member of GoBridge where she focuses on increasing diversity and mindfulness in the Go community.<br>
+  She is an organizer for the GoSF meetup, and a local conference, Gopherfest.<br>
+  Cassandra is an avid karaoke fan, finds relief in stress cooking and lives in the San Francisco Bay Area.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/Cassandraoid"]
