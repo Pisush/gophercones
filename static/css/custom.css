@@ -233,3 +233,14 @@ section#workshops .social-buttons {
 .coc-contact li {
     list-style-position: inside;
 }
+
+.tickets-table {
+    align-content: left;
+    font-size: 24px;
+    font-style: unset;
+}
+
+.tickets-note {
+    margin-top: 30px;
+    font-style: italic;
+}
