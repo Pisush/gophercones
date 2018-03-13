@@ -59,8 +59,8 @@ canonifyurls = true
   [params.hero]
     title = "GopherCon Iceland 2018"
     subtitle = "The first European GopherCon<br>May, 31st - June, 3rd"
-    buttonLeftText = "Become a speaker"
-    buttonLeftLink = "https://www.papercall.io/gophercon-iceland"
+    #buttonLeftText = "Become a speaker"
+    #buttonLeftLink = "https://www.papercall.io/gophercon-iceland"
     buttonRightText = "Become a sponsor"
     buttonRightLink = "#sponsors"
     content = "Join us on June 1st and 2nd for two days of Go"
@@ -185,7 +185,7 @@ Image copyright: https://en.harpa.is"""
   [params.footer]
     enable = true
     copyrightLeft = "Gopher graphics thanks to <a href='https://github.com/ashleymcnamara/gophers'>Ashley McNamara</a><br>Original theme https://themes.gohugo.io/agency"
-    copyrightRight = "Powered by <a href='https://gohugo.io'>Hugo</a><br>&copy; Copyright 2017 Great Tech Events OÜ"
+    copyrightRight = "Powered by <a href='https://gohugo.io'>Hugo</a><br>&copy; Copyright 2017 Tick Tech Talks UG (haftungsbeschränkt)"
 
     [[params.footer.social]]
       icon = "fa-twitter"
