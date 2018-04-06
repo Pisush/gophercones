@@ -1,4 +1,4 @@
-modalID: 3
+modalID: 15
 name: Peter Bourgon
 img: peterb.jpg
 preview: peterb-preview.jpg
@@ -10,3 +10,7 @@ social:
   -
     type: "fa-twitter"
     handles: ["https://twitter.com/peterbourgon"]
+talk: talk title
+talkDescription: >
+  <br>
+  talk description

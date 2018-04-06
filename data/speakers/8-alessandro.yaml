@@ -1,0 +1,15 @@
+modalID: 8
+name: Alessandro Arzilli
+img: alessandro.jpg
+preview: alessandro-preview.jpg
+description: >
+  <br>
+  Alessandro's description
+social:
+  -
+    type: "fa-github"
+    handles: ["https://github.com/aarzilli"]
+talk: talk title
+talkDescription: >
+  <br>
+  talk description

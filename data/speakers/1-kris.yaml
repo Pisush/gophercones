@@ -11,3 +11,7 @@ social:
   -
     type: "fa-twitter"
     handles: ["https://twitter.com/Kris__Nova"]
+talk: talk title
+talkDescription: >
+  <br>
+  talk description

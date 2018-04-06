@@ -1,0 +1,15 @@
+modalID: 10
+name: Matt Silverlock
+img: matts.jpg
+preview: matts-preview.jpg
+description: >
+  <br>
+  Matt's description
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/elithrar"]
+talk: talk title
+talkDescription: >
+  <br>
+  talk description

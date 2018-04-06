@@ -8,19 +8,34 @@
             </div>
         </div>
 
-        <div class="row speakers-row">
-        {{ range sort .Site.Data.speakers }}
-            <div class="col-md-4 col-sm-6 speakers-item">
+        <div class="row schedule-day-row col-sm-6 day1">
+            <div class="col-md-12 col-sm-4">
+                <div class="speakers-caption">
+                    <h2>{{ "Day 1" | markdownify }}</h2>
+                </div>
+            </div>
+        {{ range sort .Site.Data.speakers ".modalID" }}
+            <div class="col-md-12 col-sm-4 speakers-item modalID{{ .modalID }}">
+                {{ if ne .img "" }}
                 <a data-featherlight="#speakersModal{{ .modalID }}" href="javascript:" class="speakers-link">
+                {{ end }}
                     <div class="speakers-image-container">
                         {{ $url := printf "img/speakers/%s" .preview }}
                         <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="{{ .name }}">
+                        {{ if eq .modalID 12 }}
+                        {{ $url := printf "img/speakers/babatunde-preview.jpg"  }}
+                        <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="Babatunde Ekemode">
+                        {{ end }}
                     </div>
+                {{ if ne .img "" }}
                 </a>
+                {{end}}
                 <div class="speakers-caption">
+                    {{ if ne .talk "" }}
+                    <h4>{{ .talk | markdownify }}</h4>
+                    {{ end }}
                     <h4>{{ .name | markdownify }}</h4>
                 </div>
-
                 <ul class="list-inline social-buttons">
                 {{ range $network := .social}}
                     {{ range $network.handles }}
@@ -29,8 +44,16 @@
                 {{ end }}
                 </ul>
             </div>
+            {{ if eq .modalID 8 }}
+        </div>
+        <div class="row schedule-day-row col-sm-6 day2">
+            <div class="col-md-12 col-sm-4">
+                <div class="speakers-caption">
+                    <h2>{{ "Day 2" | markdownify }}</h2>
+                </div>
+            </div>
+            {{ end }}
         {{ end }}
         </div>
-
     </div>
 </section>

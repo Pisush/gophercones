@@ -109,6 +109,9 @@ span.copyright {
     text-align: left;
 }
 
+section#speakers {
+    padding: 150px 0 0 0;
+}
 section#speakers .social-buttons {
     text-align: center;
 }
@@ -136,8 +139,17 @@ section#speakers .social-buttons {
 .speakers-item {
     margin-bottom: 25px;
 }
-.speakers-container {
-    display: none;
+@media (min-width: 768px) {
+    .schedule-day-row {
+        margin-bottom: 0;
+        float: left;
+    }
+    .schedule-day-row:nth-of-type(1) {
+        float: right;
+    }
+}
+.schedule-day-row {
+    margin-bottom: 0;
 }
 .img-speaker-modal {
     width: 225px;
