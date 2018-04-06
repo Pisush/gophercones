@@ -10,3 +10,6 @@ social:
   -
     type: "fa-twitter"
     handles: ["https://twitter.com/dlsniper"]
+  -
+    type: "fa-slack"
+    handles: ["https://gophers.slack.com/messages/@dlsniper/"]

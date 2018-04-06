@@ -1,6 +1,6 @@
-baseURL = "https://localhost:1313/"
+#baseURL = "https://localhost:1313/"
 #baseURL = "https://tip.gophercon.is/"
-#baseURL = "https://gophercon.is/"
+baseURL = "https://gophercon.is/"
 languageCode = "en-us"
 title = "GopherCon Iceland"
 theme = "hugo-agency-theme"
@@ -10,7 +10,7 @@ canonifyurls = true
 [params]
   # Enter your tracking code to enable Google Analytics
   GoogleAnalytics = "UA-112420901-1"
-  name = "Great Tech Events OÜ"
+  name = "Tick Tech Talks UG (haftungsbeschränkt)"
 
   # Link custom assets relative to /static
   custom_css = ["/css/custom.css"]
@@ -68,8 +68,7 @@ canonifyurls = true
   [params.speakers]
     enable = true
     title = "Speakers"
-    subtitle = """They are our awesome speakers.<br/>
-<a href="https://www.papercall.io/gophercon-iceland">Join them</a> by submitting your talk!"""
+    subtitle = """They are our awesome speakers."""
     contents = ""
 
   [params.mcs]
@@ -83,7 +82,7 @@ All the pressure of introducing our speakers will rest on their shoulders!"""
     enable = true
     title = "Workshops"
     subtitle = """Want to learn Go? Or improve your Go skills?<br>
-All these training sessions will take place on May 31.<br>
+All these training sessions will take place on May 31st.<br>
 Attend one of them and learn from the one of the best Gophers!"""
     contents = ""
 
@@ -143,8 +142,8 @@ We follow Go's Code of Conduct, to view it, please <a href="https://golang.org/c
 A phone number will be provided for the duration of the conference.<br>
 You can also reach us in private on Twitter or at the <a href="https://invite.slack.golangbridge.org/">Gophers Slack</a>:<br>
 <ul class="coc-contact">
- <li>Natalie Pistunovich | twitter: <a href="https://twitter.com/nataliepis">@nataliepis</a> | slack: <a href="https://gophers.slack.com/messages/D152YD9DY/">@natalie</a></li>
- <li>Florin Pățan | twitter: <a href="https://twitter.com/dlsniper">@dlsniper</a> | slack: <a href="https://gophers.slack.com/messages/D18TKNS8P/">@dlsniper</a></li>
+ <li>Natalie Pistunovich | twitter: <a href="https://twitter.com/nataliepis">@nataliepis</a> | slack: <a href="https://gophers.slack.com/messages/@natalie/">@natalie</a></li>
+ <li>Florin Pățan | twitter: <a href="https://twitter.com/dlsniper">@dlsniper</a> | slack: <a href="https://gophers.slack.com/messages/@dlsniper/">@dlsniper</a></li>
 </ul>
 """
 
@@ -192,10 +191,10 @@ Image copyright: https://en.harpa.is"""
       link = "https://twitter.com/gopherconeu"
       title = "Twitter"
 
-    #[[params.footer.social]]
-    #  icon = "fa-github"
-    #  link = "https://github.com/gopherconeu"
-    #  title = "Github"
+    [[params.footer.social]]
+      icon = "fa-slack"
+      link = "https://gophers.slack.com/messages/gophercon-iceland/"
+      title = "Slack"
 
     #[[params.footer.quicklinks]]
     #  text = "Privacy Policy"
