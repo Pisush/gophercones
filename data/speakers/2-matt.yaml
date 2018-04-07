@@ -1,0 +1,20 @@
+modalID: 2
+name: Matt Silverlock
+img: matts.jpg
+preview: matts-preview.jpg
+description: >
+  <br>
+  Matt is an engineer at Cloudflare, and co-maintainer of multiple Go-related open-source projects,<br>
+  including the Gorilla Toolkit.<br>
+  He cares about developer-friendly APIs and documentation, and is an avid photographer.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/elithrar"]
+talk: Misnomers About Microbenchmarks
+talkDescription: >
+  <br>
+  Micro-benchmarks can be incredibly misleading: "zero allocations" may not have meaningful real-world impact.<br>
+  Let’s talk through the numbers, better understand Go’s benchmarking tools, how modern CPUs "cheat" & how to better<br>
+  judge networked application performance in a world of microservices.
+break: ""

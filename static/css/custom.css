@@ -7,6 +7,10 @@ a {
     float: right;
 }
 
+.list-inline {
+    margin-left: 0;
+}
+
 .modal-body {
     text-align: center;
 }
@@ -115,6 +119,12 @@ section#speakers {
 section#speakers .social-buttons {
     text-align: center;
 }
+section#speakers .social-buttons li {
+    text-align: center;
+}
+.break {
+    height: 170px !important;
+}
 .img-speaker {
     border-radius: 50%;
 }
@@ -125,6 +135,7 @@ section#speakers .social-buttons {
 }
 .speakers-caption {
     text-align: center;
+    height: 70px;
 }
 .speakers-image-container {
     text-align: center;
@@ -137,6 +148,7 @@ section#speakers .social-buttons {
     display: none;
 }
 .speakers-item {
+    height: 320px;
     margin-bottom: 25px;
 }
 @media (min-width: 768px) {

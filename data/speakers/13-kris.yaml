@@ -1,0 +1,27 @@
+modalID: 13
+name: Kris Nova
+img: kris.jpg
+preview: kris-preview.jpg
+description: >
+  <br>
+  Kris Nova is a Senior Developer Advocate for Heptio with an emphasis in containers, infrastructure, and Kubernetes.<br>
+  She is an ambassador for the cloud native computing foundation.<br>
+  <br>
+  Prior to Heptio, Kris worked as a developer advocate for Microsoft, as well as an engineer on Kubernetes in Azure.<br>
+  She has a deep technical background in the Go programming language, and has authored many successful tools in Go.<br>
+  She is a Kubernetes maintainer, and the creator of kubicorn, a successful Kubernetes infrastructure management tool.<br>
+  She organizes a special interest group in Kubernetes, and is a leader in the community.<br>
+  Kris understands the grievances with running cloud native infrastructure via a distributed cloud native application,<br>
+  and recently authored an O’Reilly book on the topic called, "Cloud Native Infrastructure".<br>
+  Kris lives in Seattle, WA and spends her free time mountaineering.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/Kris__Nova"]
+talk: Building and managing conforming Kubernetes clusters with Heptio Ark and Sonobuoy
+talkDescription: >
+  <br>
+  In this talk we define conformance according to the CNCF standard and learn how Sonobuoy can help create<br>
+  a standardized Kubernetes installation.<br>
+  We take it a step further and learn about migrating and backing up clusters with Ark.
+break: ""

@@ -1,4 +1,4 @@
-modalID: 2
+modalID: 15
 name: Jaana B. Dogan
 img: jbd.png
 preview: jbd-preview.png
@@ -15,3 +15,4 @@ talk: talk title
 talkDescription: >
   <br>
   talk description
+break: ""

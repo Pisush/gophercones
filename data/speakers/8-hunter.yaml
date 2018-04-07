@@ -1,0 +1,20 @@
+modalID: 8
+name: Hunter Loftis
+img: hunter.jpg
+preview: hunter-preview.jpg
+description: >
+  <br>
+  Hunter manages the Languages team at Heroku.<br>
+  Before that, he ran Heroku’s Node.js/JavaScript platform, engineered at startups, and ran the development arm of a consultancy.<br>
+  When he’s not building mobile games in C#, physics engines in JavaScript, or procedurally-generated graphics in Go, he can be found motorcycling around North Carolina.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/peterbourgon"]
+talk: Painting with Light
+talkDescription: >
+  <br>
+  Learn how to render beautiful images like Pixar and Disney using a simple algorithm called path tracing.<br>
+  In this talk, we’ll trace the paths of billions of photons with Go on cheap cloud hardware.<br>
+  Together, we’ll explore concurrency, the behavior of light, and the future of computer graphics.
+break: ""

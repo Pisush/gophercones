@@ -15,14 +15,14 @@
                 </div>
             </div>
         {{ range sort .Site.Data.speakers ".modalID" }}
-            <div class="col-md-12 col-sm-4 speakers-item modalID{{ .modalID }}">
+            <div class="col-md-12 col-sm-4 speakers-item modalID{{ .modalID }} {{ .break }}">
                 {{ if ne .img "" }}
                 <a data-featherlight="#speakersModal{{ .modalID }}" href="javascript:" class="speakers-link">
                 {{ end }}
                     <div class="speakers-image-container">
                         {{ $url := printf "img/speakers/%s" .preview }}
                         <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="{{ .name }}">
-                        {{ if eq .modalID 12 }}
+                        {{ if eq .modalID 5 }}
                         {{ $url := printf "img/speakers/babatunde-preview.jpg"  }}
                         <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="Babatunde Ekemode">
                         {{ end }}
@@ -36,6 +36,7 @@
                     {{ end }}
                     <h4>{{ .name | markdownify }}</h4>
                 </div>
+                {{ if ne .img "" }}
                 <ul class="list-inline social-buttons">
                 {{ range $network := .social}}
                     {{ range $network.handles }}
@@ -43,6 +44,7 @@
                     {{ end }}
                 {{ end }}
                 </ul>
+                {{ end }}
             </div>
             {{ if eq .modalID 8 }}
         </div>

@@ -1,0 +1,22 @@
+modalID: 5
+name: Ian Juma & Babatunde Ekemode
+img: ian.png
+preview: ian-preview.png
+description: >
+  <br>
+  Ian Juma is a Site Reliability Engineer and Head of Product (Paas) at Africa's Talking.<br>
+  He is passionate about Kubernetes, Containers and solving cloud infrastructure challenges in Africa.<br>
+  <br>
+  Babatunde Abdulquddus is a Software Developer, Data Infrastructure and Engineering team at Africa's Talking.<br>
+  He is passionate about distributed computing, big data analytics and devOps.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/IanJuma", "https://twitter.com/boy_blaq"]
+talk: Building a Local Cloud [PaaS] for Africa
+talkDescription: >
+  <br>
+  Building a highly reliable cloud in a continent with Infrastructural challenges.<br>
+  Being an API company, we interact with many developers and a number of them find it difficult to setup proper cloud infrastructure.<br>
+  We are building a local cloud platform that allows developers to easily consume secure, reliable and cloud infrastructure.
+break: ""

@@ -1,0 +1,19 @@
+modalID: 9
+name: Peter Bourgon
+img: peterb.jpg
+preview: peterb-preview.jpg
+description: >
+  <br>
+  Peter Bourgon is an experienced typist and Gopher.<br>
+  He currently types for Fastly. Previously, he has typed for Weaveworks, SoundCloud, and Bloomberg.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/peterbourgon"]
+talk: Best Practices for Industrial Programming
+talkDescription: >
+  <br>
+  Come to learn best (and worst) practices when writing Go in startup or corporate environments,<br>
+  from someone who’s been doing it for a very long time.<br>
+  Topics include: repo structure, configuration, program design, optimization, observability, testing, dependency injection, and many others.
+break: ""

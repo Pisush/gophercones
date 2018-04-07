@@ -1,0 +1,28 @@
+modalID: 1
+name: Charity Majors
+img: charity.jpg
+preview: charity-preview.jpg
+description: >
+  <br>
+  Charity is cofounder and CEO of honeycomb.io, a startup aimed at debugging complex systems. (“It’s like strace for systems!”)<br>
+  Previously, Charity ran infrastructure at Parse and was an engineering manager at Facebook.<br>
+  She also worked with the RocksDB team to build and deploy the world’s first Mongo + Rocks in production.<br>
+  She likes single malt scotch.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/mipsytipsy"]
+talk: Observability-Driven Development
+talkDescription: >
+  <br>
+  TDD is table stakes for any good team, but it's not enough: these days you need observability-driven design and development.<br>
+  Tests are great but your code isn't baked til it touches real services, real data, real network hops, and real users,<br>
+  and you should accept no substitute.<br>
+  How can we safely roll software out and validate ourselves at every step, without inflicting subtle errors on our users?<br>
+  What qualities of golang lend itself uniquely well to complex systems and distributed systems?<br>
+  Where should you start when instrumenting golang code from scratch, and how should you anticipate the observability and<br>
+  operability requirements of your systems?<br>
+  What level of abstraction is useful?<br>
+  We'll examine these techniques in the context of a few scenarios, such as the Parse API rewrite from ruby to golang,<br>
+  and our experience at Honeycomb building and using golang SDKs for naive instrumentation of golang apps.
+break: ""
