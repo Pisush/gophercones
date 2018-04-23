@@ -1,17 +1,25 @@
 {{ "<!-- Speakers Modals -->" | safeHTML }}
 {{ range .Site.Data.speakers }}
+    {{ if ne .img "" }}
 <div class="speakers-modal" id="speakersModal{{ .modalID }}" tabindex="-1">
     <div class="row">
         <div class="col-lg-12 col-lg-offset-0">
             <div class="modal-body">
-                <h2>{{ .name  | markdownify }}</h2>
+                <h2>{{ .talk  | markdownify }}</h2>
                 {{ $url := printf "img/speakers/%s" .img }}
                 <img class="img-responsive img-centered img-speaker img-speaker-modal" src="{{ $url | absURL }}" alt="{{ .name }}">
+                {{ if eq .modalID 5 }}
+                {{ $url := printf "img/speakers/babatunde.jpg"  }}
+                <img class="img-responsive img-centered img-speaker img-speaker-modal" src="{{ $url | absURL }}" alt="{{ .name }}">
+                {{ end }}
+                <p>{{ .talkDescription | markdownify }}</p>
+                <h3>About {{ .name  | markdownify }}</h3>
                 <p>{{ .description | markdownify }}</p>
             </div>
         </div>
     </div>
 </div>
+    {{ end }}
 {{ end }}
 
 {{ "<!-- MCS Modals -->" | safeHTML }}

@@ -1,0 +1,19 @@
+modalID: 10
+name: Alessandro Arzilli
+img: alessandro.jpg
+preview: alessandro-preview.jpg
+description: >
+  <br>
+  Alessandro is one of Delve's maintainers, he's contributed to the Go toolchain and a few other open source projects.<br>
+  He is passionate about bits.
+social:
+  -
+    type: "fa-github"
+    handles: ["https://github.com/aarzilli"]
+talk: Internal Architecture of Delve, a Debugger for Go
+talkDescription: >
+  <br>
+  This will describe the internal architecture of Delve and, in general, of all other symbolic debuggers.<br>
+  It will leave you in a better position to contribute to Delve, to other debugger, or even write your own.<br>
+  You will also have a better idea why debuggers have struggled to support Go.
+break: ""

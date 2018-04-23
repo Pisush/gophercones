@@ -1,0 +1,23 @@
+modalID: 4
+name: Kaylyn Gibilterra
+img: kaylyn.jpg
+preview: kaylyn-preview.jpg
+description: >
+  <br>
+  Kaylyn Gibilterra is a gopher from Capital One Labs and enthusiastic advocate for Go use in the enterprise.<br>
+  She is also a Recurse Center alum and would love to talk about the wonders of engineering sabbaticals.<br>
+  Kaylyn has worked with Women Who Code and Women Who Go (feel free to ask about the difference!) where she has taught<br>
+  workshops and mentored dozens of engineers through their successful transitions into and promotions throughout tech.<br>
+  Most importantly, she loves history, rooftop views, and the color maroon.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/kgibilterra"]
+talk: Greedy alGOrithms
+talkDescription: >
+  <br>
+  Learning algorithms can be overwhelming and demoralizing.<br>
+  Go’s simplicity enables you to reason about and master them quickly.<br>
+  This talk will dive into developing, testing, and benchmarking your greedy algorithms.<br>
+  If you are going to learn algorithms, do it in Go.
+break: ""

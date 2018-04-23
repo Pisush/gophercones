@@ -10,7 +10,6 @@ $(document).ready(function(){
       $(toggled).toggle()
     };
 
-    randomizeThings('.speakers-item', '.speakers-row', '.speakers-container');
     randomizeThings('.mcs-item', '.mcs-row', '.mcs-container');
     randomizeThings('.trainers-item', '.trainers-row', '.workshops-container');
 

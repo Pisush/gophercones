@@ -1,0 +1,23 @@
+modalID: 7
+name: Marian Montagnino
+img: marianmontagnino.jpg
+preview: marianmontagnino-preview.jpg
+description: >
+  <br>
+  Marian Montagnino is a full-time Golang developer at Graymeta, Inc.<br>
+  She earned a dual BS degree in Computer Science and Mathematics from Rensselaer Polytechnic Institute (Troy, NY) and<br>
+  MS in Applied Mathematics from Stevens Institute of Technology (Hoboken, NJ).<br>
+  She has been programming in Go since early 2014.<br>
+  She loves hiking, painting and reading books on theology and philosophy.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/mmontagnino"]
+talk: Develop Computer Vision Apps with Go
+talkDescription: >
+  <br>
+  Computer vision is one of the strongest drivers of tech innovation today.<br>
+  By teaching a computer to intelligently recognize the objects it encounters, an immense knowledge is gained about<br>
+  the world around us.<br>
+  Join this trailblazing technology; develop your own Go applications for object detection.
+break: ""

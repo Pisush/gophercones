@@ -1,4 +1,4 @@
-modalID: 2
+modalID: 15
 name: Jaana B. Dogan
 img: jbd.png
 preview: jbd-preview.png
@@ -11,3 +11,8 @@ social:
   -
     type: "fa-twitter"
     handles: ["https://twitter.com/rakyll"]
+talk: talk title
+talkDescription: >
+  <br>
+  talk description
+break: ""

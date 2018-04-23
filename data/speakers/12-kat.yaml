@@ -1,0 +1,22 @@
+modalID: 12
+name: Kat Zien
+img: katzien.jpg
+preview: katzien-preview.jpg
+description: >
+  <br>
+  Writing Go and PHP at Brightpearl. Working remotely from Bristol, UK or anywhere with wifi.<br>
+  Her main interests include automating #allthethings, sorting out legacy code and making things simpler and faster.<br>
+  She’s co-organising and giving talks at Golang Bristol++ and PHPSW.<br>
+  Kat loves travelling and keeping active, appreciates good coffee and is a big Lego fan.<br>
+  She will be cycling from Vienna to Budapest in May to raise money for Room To Read.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/kasiazien"]
+talk: How do you structure your Go apps?
+talkDescription: >
+  <br>
+  "How should I structure my Go app?" is one of the most common questions asked by new and experienced developers alike.<br>
+  It certainly was one of my first questions, and is something I keep coming back to.<br>
+  Let’s discuss a few patterns and trends used in the industry these days.
+break: ""
