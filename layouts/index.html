@@ -11,24 +11,24 @@
       {{ partial "services.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.speakers.enable }}
-      {{ partial "speakers.html" . }}
+    {{ if .Site.Params.schedule.enable }}
+      {{ partial "schedule.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.mcs.enable }}
-      {{ partial "mcs.html" . }}
+    {{ if .Site.Params.speakers.enable }}
+      {{ partial "speakers.html" . }}
     {{ end }}
 
     {{ if .Site.Params.trainers.enable }}
       {{ partial "trainers.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.tickets.enable }}
-      {{ partial "tickets.html" . }}
+    {{ if .Site.Params.mcs.enable }}
+      {{ partial "mcs.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.schedule.enable }}
-      {{ partial "schedule.html" . }}
+    {{ if .Site.Params.tickets.enable }}
+      {{ partial "tickets.html" . }}
     {{ end }}
 
     {{ if .Site.Params.venue.enable }}

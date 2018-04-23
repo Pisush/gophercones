@@ -1,5 +1,5 @@
-#baseURL = "https://localhost:1313/"
-baseURL = "https://tip.gophercon.is/"
+baseURL = "https://localhost:1313/"
+#baseURL = "https://tip.gophercon.is/"
 #baseURL = "https://gophercon.is/"
 languageCode = "en-us"
 title = "GopherCon Iceland"
@@ -32,11 +32,11 @@ canonifyurls = true
     brand = "GopherCon Iceland"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    speakers = "Schedule"
+    schedule = "Schedule"
+    speakers = "Speakers"
     mcs = "MCs"
     trainers = "Workshops"
     tickets = "Tickets"
-    schedule = "Schedule"
     venue = "Venue"
     sponsors = "Sponsors"
     team = "Team"
@@ -67,7 +67,7 @@ canonifyurls = true
 
   [params.speakers]
     enable = true
-    title = "Schedule"
+    title = "Speakers"
     subtitle = """Our conference schedule spans on two days with a single track."""
     contents = ""
 

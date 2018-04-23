@@ -1,5 +1,23 @@
+/*.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+
+}*/
+
+::selection {
+    text-shadow: none;
+    background: #88D351;
+}
+
+.navbar-default .navbar-brand {
+    color: #88D351;
+}
+
+.btn-xl {
+    background-color: #88D351;
+    border-color: #88D351;
+}
+
 a {
-    color: indigo;
+    color: #262729;
     font-weight: bold;
 }
 
@@ -42,13 +60,13 @@ a {
     color: #000000;
 }
 .navbar-default.navbar .nav li a:hover, .navbar-default .nav li a:focus {
-    color: #fec900
+    color: #88D351;
 }
 .navbar-default.navbar-shrink .nav li a {
     color: #FFFFFF;
 }
 .navbar-default.navbar-shrink .nav li a:hover, .navbar-default.navbar-shrink .nav li a:focus {
-    color: #fed136
+    color: #88D351;
 }
 .nav>li>a {
   padding: 10px 4px;
@@ -56,7 +74,7 @@ a {
 
 header {
     text-align: center;
-    color: indigo;
+    color: #262729;
 }
 header .hero-spacer img {
     width: 100%;
