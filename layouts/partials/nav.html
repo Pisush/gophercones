@@ -42,15 +42,15 @@
           </li>
         {{ end }}
 
+      {{ if .Site.Params.schedule.enable }}
+          <li>
+              <a class="page-scroll" href="{{ .Site.BaseURL }}#schedule">{{ with .Site.Params.navigation.schedule }}{{ . }}{{ end }}</a>
+          </li>
+      {{ end }}
+
         {{ if .Site.Params.speakers.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#speakers">{{ with .Site.Params.navigation.speakers }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.mcs.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#mcs">{{ with .Site.Params.navigation.mcs }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
@@ -60,15 +60,15 @@
           </li>
         {{ end }}
 
+      {{ if .Site.Params.mcs.enable }}
+          <li>
+              <a class="page-scroll" href="{{ .Site.BaseURL }}#mcs">{{ with .Site.Params.navigation.mcs }}{{ . }}{{ end }}</a>
+          </li>
+      {{ end }}
+
         {{ if .Site.Params.tickets.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#tickets">{{ with .Site.Params.navigation.tickets }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.schedule.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#schedule">{{ with .Site.Params.navigation.schedule }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 

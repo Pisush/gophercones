@@ -11,8 +11,12 @@ social:
   -
     type: "fa-twitter"
     handles: ["https://twitter.com/rakyll"]
-talk: talk title
+talk: Tracing for granularity
 talkDescription: >
   <br>
-  talk description
+  Go is a great language to write servers. In a Go process, there are many activities going on, and it is not always easy<br>
+  to observe the relationship between application-level code and runtime activities.<br>
+  This limits our understanding of the runtime behavior and latency issues triggered by the application code.<br>
+  Go is planning to extend its tools to provide more visibility and allow you to trace runtime events (such as goroutine<br>
+  scheduling, memory allocation, GC, network events, and syscalls) related to application code.
 break: ""
