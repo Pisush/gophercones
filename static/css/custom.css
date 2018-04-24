@@ -187,6 +187,11 @@ section#speakers .social-buttons li {
     display: inline;
 }
 
+.buy-ticket{
+    margin-top: 50px;
+    text-align: center;
+}
+
 section#mcs .social-buttons {
     text-align: center;
 }

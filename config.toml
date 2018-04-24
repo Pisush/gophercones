@@ -59,8 +59,8 @@ canonifyurls = true
   [params.hero]
     title = "GopherCon Iceland 2018"
     subtitle = "The first European GopherCon<br>May, 31st - June, 3rd"
-    #buttonLeftText = "Become a speaker"
-    #buttonLeftLink = "https://www.papercall.io/gophercon-iceland"
+    buttonLeftText = "Buy your ticket"
+    buttonLeftLink = "#buy-ticket"
     buttonRightText = "Become a sponsor"
     buttonRightLink = "#sponsors"
     content = "Join us on June 1st and 2nd for two days of Go"
