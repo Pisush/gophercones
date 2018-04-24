@@ -89,8 +89,9 @@ Attend one of them and learn from the one of the best Gophers!"""
   [params.tickets]
     enable = true
     title = "Tickets"
-    subtitle = """Tickets are not on sale yet, we'll announce this in the very near future.<br>
-Please follow us on Twitter or check back here soon for updates about this."""
+    subtitle = """
+<a href="https://www.eventbrite.com/e/gophercon-iceland-tickets-45476816382?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=45476816382" alt="Eventbrite - GopherCon Iceland" /></a>
+"""
     contents = ""
 
   [params.schedule]
