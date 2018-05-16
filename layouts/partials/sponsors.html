@@ -1,35 +1,34 @@
 {{ "<!-- Sponsors Aside -->" | safeHTML }}
-<section id="sponsors" class="bg-light-gray">
+<section id="sponsors">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-          <h2 class="section-heading">{{ .Site.Params.sponsors_list.title | markdownify }}</h2>
-          {{ if .Site.Params.sponsors_list.description }}
-          <h3 class="section-subheading text-mutedwith">{{ .Site.Params.sponsors_list.description | markdownify }}</h3>
-          {{ end }}
+        <h2 class="section-heading">{{ .Site.Params.sponsors_list.title | markdownify }}</h2>
+        {{ if .Site.Params.sponsors_list.description }}
+        <h3 class="section-subheading text-mutedwith">{{ .Site.Params.sponsors_list.description | markdownify }}</h3>
+        {{ end }}
       </div>
     </div>
     <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
-
-      {{ range .Site.Params.sponsors }}
-        <div class="col-md-3 col-sm-6 col">
-          {{ $url := printf "img/logos/%s" .logo }}
-          {{ if .link }}
-            <a href="{{ .link }}">
-              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="{{ .name }}">
+      {{ range $index, $member := sort .Site.Data.sponsors }}
+        <div class="col-md-4 col">
+          <div class="sponsor">
+            <a data-featherlight="#sponsorModal{{ .modalID }}" href="javascript:" class="speakers-link">
+              {{ $url := printf "img/sponsors/%s" .preview }}
+              <img src="{{ $url | absURL }}" class="img-responsive img-sponsor-preview" alt="{{ .name }}">
             </a>
-          {{ else }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="{{ .name }}">
-          {{ end }}
+            <h4>{{ .name | markdownify }}</h4>
+
+            <ul class="list-inline social-buttons">
+              {{ range $network := .social}}
+                {{ range $network.handles }}
+                  <li><a href="{{ . }}"><i class="fa {{ $network.type }}"></i></a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
         </div>
       {{ end }}
     </div>
-    {{ if .Site.Params.sponsors_list.contents }}
-    <div class="row contents">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-            <p class="large text-muted">{{ .Site.Params.sponsors_list.contents | markdownify }}</p>
-        </div>
-    </div>
-    {{ end }}
   </div>
 </section>

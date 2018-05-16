@@ -1,0 +1,14 @@
+modalID: 1
+name: Startup Iceland
+img: google.jpg
+preview: google-preview.jpg
+description: >
+  <br>
+  Building a sustainable and antifragile entrepreneurial community in Iceland as a template for Startup communities throughout the world.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/startupiceland"]
+  -
+    type: "fa-external-link"
+    handles: ["https://startupiceland.com"]

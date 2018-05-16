@@ -113,6 +113,20 @@ section.sponsors .heading {
 section.sponsors div.contents {
     padding-top: 30px;
 }
+section#sponsors .social-buttons {
+    text-align: center;
+}
+section#sponsors .social-buttons li {
+    text-align: center;
+}
+.sponsor {
+    text-align: center;
+}
+.img-sponsor-preview {
+    width: 170px;
+    text-align: center;
+    display: inline;
+}
 
 section#contact {
     color: #FFFFFF;
