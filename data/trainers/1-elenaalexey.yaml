@@ -1,17 +1,15 @@
 modalID: 1
-name: Elena Grahovac & Myles McDonnell
+name: Elena Grahovac & Alexey Palazhchenko
 img: elena.jpg
 preview: elena-preview.jpg
 description: >
   Elena is a Senior Go Developer at DCMN and a co-host of the GolangShow podcast.<br>
   She is a fan of Go and Kubernetes. Elena designs and writes microservices and<br>
-  is passionate about software architecture and site reliability engineering topics.
+  is passionate about software architecture and site reliability engineering topics.<br>
   <br>
-  <br>
-  Myles is software engineer and development team lead with ~20 years commercial<br>
-  experience building systems in finance, gaming, retail and shipping.<br>
-  When he is not coding he enjoy's riding his motorcycle and jumping around to techno,<br>
-  although never at the same time!
+  Alexey discovered Go at version r60 and never looked back.<br>
+  Since then he started Golang Moscow meetup group, GolangShow podcast, and GopherCon Russia conference.<br>
+  He always tries to make systems simpler and faster at the same time.
 workshopTitle: "Production-ready microservices with Go and Kubernetes"
 workshopLevel: "Beginner"
 workshopDuration: "9-17 (full day)"
@@ -37,5 +35,5 @@ social:
     type: "fa-twitter"
     handles: ["https://twitter.com/webdeva"]
   -
-    type: "fa-linkedin"
-    handles: ["https://www.linkedin.com/in/mylesmcdonnell/"]
+    type: "fa-twitter"
+    handles: ["https://twitter.com/paaleksey"]
