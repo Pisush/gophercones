@@ -122,26 +122,35 @@ Attend one of them and learn from the one of the best Gophers!"""
       img = "1.png"
       date = "June 3rd, 2018"
       title = "Community Day"
-      description = "In collaboration with local community."
+      description = "Gophers go on a day trip around Reykjanes."
 
   [params.community]
     title = "Comunity Day"
-    subtitle = "Join us for a day trip around Reykjanes!"
+    subtitle = "Call for all Gophers to join onboard!"
     content = """
+Our community day will take place on Sunday June 3rd, and we will go for a trip together.<br>
+<br>
+Tour Description:<br>
 Reykjanes is a peninsula in Southwest Iceland, characterized by immense lava fields, volcanoes and strong geothermal activity.<br>
 The peninsula runs along the Mid-Atlantic Ridge where the Eurasian and the North American tectonic plates are drifting apart.<br>
 Because of this geological setting, the whole peninsula is extremely volcanic active, covered with lava fields and volcanoes and small earthquakes are very common there.<br>
 During the middle ages, many eruptions occurred in Reykjanes, but no eruptions have been recorded there for the last 500 years.<br>
 <br>
-The Blue Lagoon, the airport of Keflavik and Reykjavik are all on that peninsula, you will be able to choose where you want to be dropped off on the return segment of the trip.<br>
-Anyone who wants to continue to the Blue Lagoon is welcomed, we will drop you off there, but you need to book your own ticket (we recommend doing it in advance!).<br>
+Logistics:<br>
+<ul>
+<li>Pickup will be at Harpa at 10:00</li>
+<li>Drop off will be at 15:00 at 3 locations, please choose one when booking:<br>
+<ul>
+<li>Harpa at Reykjavik</li>
+<li>Keflavik airport</li>
+<li>Blue Lagoon</li>
+</ul>
+</li>
+<li>Tickets cost 100eur/person and include food. You will be asked for your food preference upon booking.</li>
+<li><b>Last day for booking is May 27.</b></li>
+</ul>
 <br>
-<strong>Pickup</strong> will be <strong>at Harpa at: 10:00</strong><br>
-<strong>Drop off</strong> will be <strong>at 15:00 at: Reykjavik/Blue Lagoon/Airport</strong> - you must pick this in advance when RSVPing<br>
-<strong>RSVP deadline is a week before the trip!</strong>
-<br>
-For more information and to book the tour, please visit our partner's page:<br>
-<a href="https://guidetoiceland.is/book-holiday-trips/blue-lagoon-and-krysuvik-trip">https://guidetoiceland.is/book-holiday-trips/blue-lagoon-and-krysuvik-trip</a><br>
+Book the tour here: <a href="https://guidetoiceland.is/cart/load_cart/966617?a=57240">https://guidetoiceland.is/cart/load_cart/966617?a=57240</a>.
 """
 
   [params.team]
