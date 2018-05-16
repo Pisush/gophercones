@@ -1,0 +1,22 @@
+modalID: 2
+enabled: false
+name: Google
+anchor: google
+img: google.jpg
+description: >
+  <br>
+  Google was created in 1998 "to organize the world's information and make it universally accessible and useful".<br>
+  Achieving this goal of unprecedented scale and complexity requires  innovative, elegant and simple solutions.<br>
+  <br>
+  In 2007, Google began working on a new language designed to be efficient at both creating and running software at scale.<br>
+  Two years later, Google released the Go programming language as an open-source project to make programming fast, productive, and most importantly, fun.<br>
+  With strong support for concurrency, low latency and blazingly fast performance, Go empowers developers to build performant, reliable and efficient software that takes full advantage of modern multi-core hardware and cloud computing.<br>
+  <br>
+  Today, Go is used by 1 million developers worldwide. Google is proud to be joined by people from around the world creating the language and community responsible for tomorrow’s innovations.<br>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/Google"]
+  -
+    type: "fa-external-link"
+    handles: ["https://google.com"]

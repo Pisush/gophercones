@@ -1,0 +1,16 @@
+modalID: 16
+name: Go Team
+img: go.png
+preview: go-preview.png
+description: >
+  <br>
+  Details coming soon...
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/golang"]
+talk: Panel with the Go Team
+talkDescription: >
+  <br>
+  Details coming soon...
+break: ""

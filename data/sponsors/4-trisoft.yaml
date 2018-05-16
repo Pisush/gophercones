@@ -1,0 +1,15 @@
+modalID: 4
+enabled: true
+name: TRISOFT
+anchor: trisoft
+img: trisoft.png
+description: >
+  <br>
+  We are TRISOFT. We build rock-solid software using Go. We provide highly efficient teams, including Golang architects, developers and more.<br>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/trisoftro"]
+  -
+    type: "fa-external-link"
+    handles: ["https://www.trisoft.ro"]
