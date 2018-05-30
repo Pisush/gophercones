@@ -32,7 +32,7 @@
                 {{end}}
                 <div class="speakers-caption">
                     {{ if ne .talk "" }}
-                    <h4>{{ .talk | markdownify }}</h4>
+                    <a data-featherlight="#speakersModal{{ .modalID }}" href="javascript:" class="speakers-link"><h4>{{ .talk | markdownify }}</h4></a>
                     {{ end }}
                     <h4>{{ .name | markdownify }}</h4>
                 </div>

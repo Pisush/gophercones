@@ -67,6 +67,48 @@
 </div>
 {{ end }}
 
+<div class="speakers-modal" id="workshopVenueModal1" tabindex="-1">
+    <div class="row">
+        <div class="col-lg-12 col-lg-offset-0">
+            <div class="modal-body">
+                <h2>Reykjavik University</h2>
+                <div>
+                    {{ $url := "img/venue/ru-preview.jpg" }}
+                    <img class="img-responsive img-centered img-trainer img-trainer-modal" src="{{ $url | absURL }}" alt="Reykjavik University">
+                </div>
+                <div class="workshop-details">
+                    <h5>Admission hours</h5>
+                    You can arrive between 08:00 AM and 09:00 AM.<br>
+                    Please don't be late so that you do not disturb the other workshop participants or the teachers. Thank you.
+                    <br>
+                    <br>
+                    <h5>Location</h5>
+                    Menntavegur 1, IS-101, Reykjavík<br>
+                    <a href="https://goo.gl/maps/6azm4H38WZH2">View on Google Maps</a>
+                    <br>
+                    <br>
+                    <h5>Transporation</h5>
+                    You can get to the University using the bus number 5 or by taxi.
+                    <br>
+                    <br>
+                    <h5>Menu</h5>
+                    Please note that the menu is not covered in the admission ticket.<br>
+                    The price is around 1500 ISK, but may vary depending on your requirements.<br>
+                    Vegetarian and vegan options are also available.<br>
+                    <br>
+                    Menu options:
+                    <ul>
+                        <li>Fried chicken in peppersauce with baked potatoes and freshly baked bread</li>
+                        <li>Chili Sin Carne with potatoes and pesto</li>
+                        <li>Salad bar</li>
+                        <li>Soup of the day: pumpkinsoup with garlic and ginger</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {{ "<!-- Team Modals -->" | safeHTML }}
 {{ range .Site.Data.team }}
 <div class="speakers-modal" id="teamModal{{ .modalID }}" tabindex="-1">

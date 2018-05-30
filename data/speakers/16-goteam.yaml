@@ -1,0 +1,15 @@
+modalID: 16
+name: Go Team
+img: goteam.png
+preview: goteam-preview.png
+description: >
+  <br>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/golang"]
+talk: Panel with the Go Team
+talkDescription: >
+  <br>
+  Hear members of the Go team tackle question about community, the language, and more
+break: ""

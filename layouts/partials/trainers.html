@@ -7,10 +7,26 @@
         <h3 class="section-subheading text-muted">{{ .Site.Params.trainers.subtitle | markdownify }}</h3>
       </div>
     </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 workshop-location">
+            <a data-featherlight="#workshopVenueModal1" href="javascript:" class="trainers-link">
+                <div class="trainers-image-container">
+                {{ $url := "img/venue/ru-preview.jpg" }}
+                    <img src="{{ $url | absURL }}" class="img-responsive img-circle img-trainer-preview" alt="Reykjavik University">
+                </div>
+            </a>
+            <div class="trainers-caption">
+                <a data-featherlight="#workshopVenueModal1" href="javascript:" class="trainers-link"><h3>Location: Reykjavik University</h3></a>
+            </div>
+            <ul class="list-inline social-buttons">
+              <li><a href="https://twitter.com/haskolinn"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://en.ru.is"><i class="fa fa-external-link"></i></a></li>
+            </ul>
+        </div>
+    </div>
     <div class="row trainers-row">
       {{ range $index, $trainer := sort .Site.Data.trainers }}
         <div class="col-md-4 col-sm-6 trainers-item">
-          {{ $imgURL := printf "img/speakers/%s" .img }}
           <a data-featherlight="#trainersModal{{ .modalID }}" href="javascript:" class="trainers-link">
             <div class="trainers-image-container">
               {{ $url := printf "img/trainers/%s" .preview }}

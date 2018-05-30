@@ -1,6 +1,6 @@
-baseURL = "https://localhost:1313/"
+#baseURL = "https://localhost:1313/"
 #baseURL = "https://tip.gophercon.is/"
-#baseURL = "https://gophercon.is/"
+baseURL = "https://gophercon.is/"
 languageCode = "en-us"
 title = "GopherCon Iceland"
 theme = "hugo-agency-theme"

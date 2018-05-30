@@ -291,6 +291,9 @@ section#workshops .social-buttons {
 .workshops-container {
     display: none;
 }
+.workshop-location {
+    margin-bottom: 40px;
+}
 
 .coc-contact li {
     list-style-position: inside;
