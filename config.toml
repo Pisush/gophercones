@@ -183,7 +183,7 @@ You can also reach us in private on Twitter or at the <a href="https://invite.sl
     enable = true
     center = true
     title = "Sponsors"
-    description = "These are our sponsors"
+    description = ""
     contents = """Help us make this event even better.<br>Please contact us at "team [at] gophercon [dot] is" for details."""
 
   [params.venue]

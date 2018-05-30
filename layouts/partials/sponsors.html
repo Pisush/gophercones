@@ -9,12 +9,33 @@
         {{ end }}
       </div>
     </div>
-    <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
-      {{ range $index, $member := sort .Site.Data.sponsors }}
-        <div class="col-md-4 col">
+    {{ range $index, $member := sort .Site.Data.sponsors }}
+            <div id="{{ .anchor }}"><br><br><br></div>
+      {{ if eq .modalID 1 }}
+        <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+          <div class="col-lg-3">
+            <h3>Special Partner</h3>
+          </div>
+        </div>
+      {{ else if eq .modalID 2 }}
+        <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+            <div class="col-md-4">
+                <h3>Gold Partners</h3>
+            </div>
+        </div>
+      {{ else if eq .modalID 3 }}
+        <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+          <div class="col-lg-4">
+            <h3>Silver Partners</h3>
+          </div>
+        </div>
+      {{ end }}
+      {{ if eq .enabled true }}
+        <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+        <div class="col-md-6">
           <div class="sponsor">
-            <a data-featherlight="#sponsorModal{{ .modalID }}" href="javascript:" class="speakers-link">
-              {{ $url := printf "img/sponsors/%s" .preview }}
+            <a>
+              {{ $url := printf "img/sponsors/%s" .img }}
               <img src="{{ $url | absURL }}" class="img-responsive img-sponsor-preview" alt="{{ .name }}">
             </a>
             <h4>{{ .name | markdownify }}</h4>
@@ -28,7 +49,11 @@
             </ul>
           </div>
         </div>
+        <div class="col-md-6">
+            {{ .description | markdownify }}
+        </div>
+      </div>
       {{ end }}
-    </div>
+    {{ end }}
   </div>
 </section>

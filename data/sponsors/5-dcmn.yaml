@@ -1,0 +1,18 @@
+modalID: 5
+enabled: true
+name: DCMN
+anchor: dcmn
+img: dcmn.png
+description: >
+  <br>
+  DCMN is the growth marketing partner for digital businesses and startups.<br>
+  Our holistic, data-driven approach combines expert knowledge from the creative, media, and digital fields with automation and analytics technologies that we build from scratch.<br>
+  To date, we’ve helped over 180 digital brands worldwide to scale their businesses.<br>
+  Find out more at <a href="https://dcmn.com/">dcmn.com</a>.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/DCMN"]
+  -
+    type: "fa-external-link"
+    handles: ["https://www.dcmn.com"]

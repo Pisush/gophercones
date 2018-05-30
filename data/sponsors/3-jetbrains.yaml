@@ -1,0 +1,19 @@
+modalID: 3
+enabled: true
+name: JetBrains
+anchor: jetbrains
+img: jetbrains.png
+description: >
+  <br>
+  JetBrains has a passion for making developers more productive: we design intelligent development tools to simplify your challenging tasks and automate the routine ones.<br>
+  We offer top-notch IDEs and team productivity tools, and our latest offering is <a href="https://jetbrains.com/go">GoLand</a>, a brand new Go IDE based on IntelliJ Platform.<br>
+  <br>
+  <a href="https://jetbrains.com/go">GoLand</a> extends IntelliJ Platform with the coding assistance and tool integrations specific for the Go language.<br>
+  Together, GoLand's powerful static code analysis and ergonomic design make development not only productive but also an enjoyable experience.<br>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/GoLandIDE"]
+  -
+    type: "fa-external-link"
+    handles: ["https://jetbrains.com/go"]

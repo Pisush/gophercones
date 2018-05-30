@@ -1,7 +1,8 @@
 modalID: 1
+enabled: true
 name: Startup Iceland
+anchor: startup-iceland
 img: startup-iceland.jpg
-preview: startup-iceland-preview.jpg
 description: >
   <br>
   Building a sustainable and antifragile entrepreneurial community in Iceland as a template for Startup communities throughout the world.

@@ -1,9 +1,10 @@
 modalID: 16
 name: Go Team
-img: goteam.png
-preview: goteam-preview.png
+img: go.png
+preview: go-preview.png
 description: >
   <br>
+  Details coming soon...
 social:
   -
     type: "fa-twitter"
@@ -11,5 +12,5 @@ social:
 talk: Panel with the Go Team
 talkDescription: >
   <br>
-  Hear members of the Go team tackle question about community, the language, and more
+  Details coming soon...
 break: ""
