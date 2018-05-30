@@ -1,11 +1,11 @@
 modalID: 5
-enabled: false
+enabled: true
 name: Microsoft
 anchor: microsoft
 img: microsoft.png
 description: >
   <br>
-  Microsoft description.
+  We write, speak, and dream in code. Our global team is maniacal about making the world amazing for developers of all backgrounds.
 social:
   -
     type: "fa-twitter"

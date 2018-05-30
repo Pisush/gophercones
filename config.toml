@@ -104,7 +104,7 @@ Attend one of them and learn from the one of the best Gophers!"""
       img = "1.png"
       date = "May 31st, 2018"
       title = "Training Day"
-      description = "Come join us for the training sessions, learn Go and a lot more. <a href='#workshops'>See the workshops</a>."
+      description = "<b>Meet us at Reykjavik University!</b> Come join us for the training sessions, learn Go and a lot more. <a href='#workshops'>See the workshops</a>."
 
     [[params.schedule.events]]
       img = "2.png"
@@ -147,7 +147,7 @@ Logistics:<br>
 </ul>
 </li>
 <li>Tickets cost 100eur/person and include food. You will be asked for your food preference upon booking.</li>
-<li><b>Last day for booking is May 27.</b></li>
+<li><b>Last day for booking is Thursday, May 31, until evening.</b></li>
 </ul>
 <br>
 <strong>Please make sure that you specify the food and drop-off location when booking your ticket.</strong><br>

@@ -1,0 +1,14 @@
+modalID: 8
+enabled: true
+name: ArdanLabs
+anchor: ardan-labs
+img: ardanlabs.jpg
+description: >
+  <br>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/ardanlabs"]
+  -
+    type: "fa-external-link"
+    handles: ["https://www.ardanlabs.com"]
