@@ -10,7 +10,9 @@
       </div>
     </div>
     {{ range $index, $member := sort .Site.Data.sponsors }}
-            <div id="{{ .anchor }}"><br><br><br></div>
+      {{ if lt .modalID 7 }}
+      <div id="{{ .anchor }}"><br><br><br></div>
+      {{ end }}
       {{ if eq .modalID 1 }}
         <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
           <div class="col-lg-3">
@@ -29,17 +31,41 @@
             <h3>Silver Partners</h3>
           </div>
         </div>
+      {{ else if eq .modalID 6 }}
+        <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+          <div class="col-lg-4">
+            <h3>Bronze Partners</h3>
+          </div>
+        </div>
+      {{ else if eq .modalID 7 }}
+        <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+          <div class="col-lg-4">
+            <br><br><br>
+            <h3>Partners</h3>
+            <br><br><br>
+          </div>
+        </div>
       {{ end }}
       {{ if eq .enabled true }}
+        {{ if lt .modalID 8 }}
         <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+        {{ end }}
+        {{ if lt .modalID 7 }}
         <div class="col-md-6">
+        {{ else }}
+        <div class="col-md-3">
+        {{ end }}
           <div class="sponsor">
-            <a>
+            {{ if lt .modalID 7 }}
+              <a>
+                {{ $url := printf "img/sponsors/%s" .img }}
+                <img src="{{ $url | absURL }}" class="img-responsive img-sponsor-preview" alt="{{ .name }}">
+              </a>
+            {{ else }}
               {{ $url := printf "img/sponsors/%s" .img }}
               <img src="{{ $url | absURL }}" class="img-responsive img-sponsor-preview" alt="{{ .name }}">
-            </a>
+            {{ end }}
             <h4>{{ .name | markdownify }}</h4>
-
             <ul class="list-inline social-buttons">
               {{ range $network := .social}}
                 {{ range $network.handles }}
@@ -49,11 +75,12 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6">
-            {{ .description | markdownify }}
+        {{ if lt .modalID 7 }}
+        <div class="col-md-6">{{ .description | markdownify }}</div>
         </div>
-      </div>
+        {{ end }}
       {{ end }}
     {{ end }}
+    </div>
   </div>
 </section>

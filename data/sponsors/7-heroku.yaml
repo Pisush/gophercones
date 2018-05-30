@@ -1,0 +1,14 @@
+modalID: 7
+enabled: true
+name: Heroku
+anchor: heroku
+img: heroku.jpg
+description: >
+  <br>
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/heroku"]
+  -
+    type: "fa-external-link"
+    handles: ["https://www.heroku.com"]

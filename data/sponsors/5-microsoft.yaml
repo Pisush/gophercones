@@ -1,0 +1,15 @@
+modalID: 5
+enabled: false
+name: Microsoft
+anchor: microsoft
+img: microsoft.png
+description: >
+  <br>
+  Microsoft description.
+social:
+  -
+    type: "fa-twitter"
+    handles: ["https://twitter.com/Microsoft"]
+  -
+    type: "fa-external-link"
+    handles: ["https://www.microsoft.com"]
