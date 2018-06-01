@@ -1,7 +1,9 @@
-modalID: 14
-name: Coffee Break
+modalID: 1
+name: Breakfast
 img: ""
 preview: coffee-preview.jpg
+talkTime: ""
+talkHour: 09:00 - 09:40
 description:
 social:
 talk: ""

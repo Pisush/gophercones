@@ -1,7 +1,9 @@
-modalID: 10
+modalID: 13
 name: Alessandro Arzilli
 img: alessandro.jpg
 preview: alessandro-preview.jpg
+talkTime: 40 min.
+talkHour: 10:40 - 11:30
 description: >
   <br>
   Alessandro is one of Delve's maintainers, he's contributed to the Go toolchain and a few other open source projects.<br>

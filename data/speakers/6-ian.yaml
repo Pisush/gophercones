@@ -1,14 +1,13 @@
-modalID: 5
-name: Ian Juma & Babatunde Ekemode
+modalID: 6
+name: Ian Juma
 img: ian.png
 preview: ian-preview.png
+talkTime: 30 min.
+talkHour: 14:25 - 15:05
 description: >
   <br>
   Ian Juma is a Site Reliability Engineer and Head of Product (Paas) at Africa's Talking.<br>
   He is passionate about Kubernetes, Containers and solving cloud infrastructure challenges in Africa.<br>
-  <br>
-  Babatunde Abdulquddus is a Software Developer, Data Infrastructure and Engineering team at Africa's Talking.<br>
-  He is passionate about distributed computing, big data analytics and devOps.
 social:
   -
     type: "fa-twitter"

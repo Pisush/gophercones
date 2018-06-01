@@ -1,7 +1,9 @@
-modalID: 8
+modalID: 9
 name: Hunter Loftis
 img: hunter.jpg
 preview: hunter-preview.jpg
+talkTime: 45 min.
+talkHour: 16:40 - 17:35
 description: >
   <br>
   Hunter manages the Languages team at Heroku.<br>

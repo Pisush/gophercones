@@ -1,7 +1,9 @@
-modalID: 13
+modalID: 16
 name: Kris Nova
 img: kris.jpg
 preview: kris-preview.jpg
+talkTime: 45 min.
+talkHour: 14:10 - 15:05
 description: >
   <br>
   Kris Nova is a Senior Developer Advocate for Heptio with an emphasis in containers, infrastructure, and Kubernetes.<br>

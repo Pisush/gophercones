@@ -1,7 +1,9 @@
-modalID: 1
+modalID: 2
 name: Charity Majors
 img: charity.jpg
 preview: charity-preview.jpg
+talkTime: 30 min.
+talkHour: 09:40 - 10:40
 description: >
   <br>
   Charity is cofounder and CEO of honeycomb.io, a startup aimed at debugging complex systems. (“It’s like strace for systems!”)<br>

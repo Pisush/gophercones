@@ -1,10 +1,10 @@
-modalID: 6
+modalID: 17
 name: Coffee Break
 img: ""
 preview: coffee-preview.jpg
-description: >
-  <br>
-  Take a break from the conference and hydrate.
+talkTime: ""
+talkHour: 15:05 - 16:00
+description:
 social:
 talk: ""
 talkDescription: ""

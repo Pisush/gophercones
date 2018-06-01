@@ -1,7 +1,9 @@
-modalID: 7
+modalID: 8
 name: Marian Montagnino
 img: marianmontagnino.jpg
 preview: marianmontagnino-preview.jpg
+talkTime: 30 min.
+talkHour: 16:00 - 16:40
 description: >
   <br>
   Marian Montagnino is a full-time Golang developer at Graymeta, Inc.<br>

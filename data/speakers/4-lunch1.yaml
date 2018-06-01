@@ -1,7 +1,9 @@
-modalID: 11
+modalID: 4
 name: Lunch Break
 img: ""
 preview: lunch-preview.jpg
+talkTime: ""
+talkHour: 11:30 - 13:30
 description:
 social:
 talk: ""

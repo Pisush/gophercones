@@ -22,10 +22,6 @@
                     <div class="speakers-image-container">
                         {{ $url := printf "img/speakers/%s" .preview }}
                         <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="{{ .name }}">
-                        {{ if eq .modalID 5 }}
-                        {{ $url := printf "img/speakers/babatunde-preview.jpg"  }}
-                        <img src="{{ $url | absURL }}" class="img-responsive img-circle img-speaker-preview" alt="Babatunde Ekemode">
-                        {{ end }}
                     </div>
                 {{ if ne .img "" }}
                 </a>
@@ -35,6 +31,7 @@
                     <a data-featherlight="#speakersModal{{ .modalID }}" href="javascript:" class="speakers-link"><h4>{{ .talk | markdownify }}</h4></a>
                     {{ end }}
                     <h4>{{ .name | markdownify }}</h4>
+                    <h5>Time: {{ .talkHour | markdownify }}</h5>
                 </div>
                 {{ if ne .img "" }}
                 <ul class="list-inline social-buttons">
@@ -46,7 +43,7 @@
                 </ul>
                 {{ end }}
             </div>
-            {{ if eq .modalID 8 }}
+            {{ if eq .modalID 10 }}
         </div>
         <div class="row schedule-day-row col-sm-6 day2">
             <div class="col-md-12 col-sm-4">

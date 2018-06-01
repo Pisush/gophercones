@@ -71,7 +71,9 @@ a {
 .nav>li>a {
   padding: 10px 4px;
 }
-
+ul.social-buttons {
+    margin-top: 44px;
+}
 header {
     text-align: center;
     color: #262729;
@@ -180,7 +182,7 @@ section#speakers .social-buttons li {
     display: none;
 }
 .speakers-item {
-    height: 320px;
+    height: 340px;
     margin-bottom: 25px;
 }
 @media (min-width: 768px) {

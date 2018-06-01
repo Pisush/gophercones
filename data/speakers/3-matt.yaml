@@ -1,11 +1,13 @@
-modalID: 2
+modalID: 3
 name: Matt Silverlock
 img: matts.jpg
 preview: matts-preview.jpg
+talkTime: 40 min.
+talkHour: 10:40 - 11:30
 description: >
   <br>
   Matt is co-maintainer of multiple Go-related open-source projects,<br>
-  including the Gorilla Toolkit, and has previously worked as an engineer at Cloudflare.<br>
+  including the Gorilla Toolkit, and has previously worked as an engineer at CloudFlare.<br>
   He cares about developer-friendly APIs and documentation, and is an avid photographer.
 social:
   -

@@ -1,7 +1,9 @@
-modalID: 12
+modalID: 15
 name: Kat Zien
 img: katzien.jpg
 preview: katzien-preview.jpg
+talkTime: 30 min.
+talkHour: 13:30 - 14:10
 description: >
   <br>
   Writing Go and PHP at Brightpearl. Working remotely from Bristol, UK or anywhere with wifi.<br>

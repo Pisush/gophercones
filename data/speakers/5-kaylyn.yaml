@@ -1,7 +1,9 @@
-modalID: 4
+modalID: 5
 name: Kaylyn Gibilterra
 img: kaylyn.jpg
 preview: kaylyn-preview.jpg
+talkTime: 45 min.
+talkHour: 13:30 - 14:25
 description: >
   <br>
   Kaylyn Gibilterra is a gopher from Capital One Labs and enthusiastic advocate for Go use in the enterprise.<br>
