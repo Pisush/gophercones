@@ -2,7 +2,7 @@
 #baseURL = "https://tip.gophercon.is/"
 baseURL = "https://gophercon.is/"
 languageCode = "en-us"
-title = "GopherCon Iceland"
+title = "GopherCon Spain"
 theme = "hugo-agency-theme"
 canonifyurls = true
 
@@ -16,7 +16,7 @@ canonifyurls = true
   custom_css = ["/css/custom.css"]
   custom_js  = []
   favicon    = "favicon.ico"
-  cfpLink    = "https://www.papercall.io/gophercon-iceland"
+  cfpLink    = "https://www.papercall.io/gophercon-Spain"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -29,7 +29,7 @@ canonifyurls = true
 
   # Navigation
   [params.navigation]
-    brand = "GopherCon Iceland"
+    brand = "GopherCon Spain"
     # Optional logo as brand stored in img/
     logo = "logo.png"
     schedule = "Schedule"
@@ -57,8 +57,8 @@ canonifyurls = true
 
 
   [params.hero]
-    title = "GopherCon Iceland 2018"
-    subtitle = "The first European GopherCon<br>May, 31st - June, 3rd"
+    title = "GopherCon Spain 2019"
+    subtitle = "The first European GopherCon<br>May, 30th - June, 2nd"
     buttonLeftText = "Buy your ticket"
     buttonLeftLink = "#buy-ticket"
     buttonRightText = "Become a sponsor"
@@ -90,7 +90,7 @@ Attend one of them and learn from the one of the best Gophers!"""
     enable = true
     title = "Tickets"
     subtitle = """
-<a href="https://www.eventbrite.com/e/gophercon-iceland-tickets-45476816382?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=45476816382" alt="Eventbrite - GopherCon Iceland" /></a>
+<a href="https://www.eventbrite.com/e/gophercon-Spain-tickets-45476816382?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=45476816382" alt="Eventbrite - GopherCon Spain" /></a>
 """
     contents = ""
 
@@ -102,58 +102,28 @@ Attend one of them and learn from the one of the best Gophers!"""
 
     [[params.schedule.events]]
       img = "1.png"
-      date = "May 31st, 2018"
+      date = "May 30th, 2019"
       title = "Training Day"
-      description = "<b>Meet us at Reykjavik University!</b> Come join us for the training sessions, learn Go and a lot more. <a href='#workshops'>See the workshops</a>."
+      description = "Come join us for the training sessions, learn Go and a lot more. <a href='#workshops'>See the workshops</a>."
 
     [[params.schedule.events]]
       img = "2.png"
-      date = "June 1st, 2018"
+      date = "May 31st, 2019"
       title = "Conference Day"
-      description = "The conference starts on Friday."
+      description = "Join us for a single track day of talks."
 
-    [[params.schedule.events]]
-      img = "2.png"
-      date = "June 2nd, 2018"
-      title = "Second Conference Day"
-      description = "The conference continues on Saturday."
-
-    [[params.schedule.events]]
+[[params.schedule.events]]
       img = "1.png"
-      date = "June 3rd, 2018"
+      date = "June 1nd, 2019"
       title = "Community Day"
-      description = "Gophers go on a day trip around Reykjanes."
+      description = "Gophers go on a day trip."
 
   [params.community]
-    title = "Comunity Day"
-    subtitle = "Call for all Gophers to join onboard!"
+    title = "Community Day"
+    subtitle = "This is the place to arrange a meetup and meet IRL the people who make this community great."
     content = """
-Our community day will take place on Sunday June 3rd, and we will go for a trip together.<br>
+Our community day will take place on Sunday June the 2nd, and we will go for a trip together.<br>
 <br>
-Tour Description:<br>
-Reykjanes is a peninsula in Southwest Iceland, characterized by immense lava fields, volcanoes and strong geothermal activity.<br>
-The peninsula runs along the Mid-Atlantic Ridge where the Eurasian and the North American tectonic plates are drifting apart.<br>
-Because of this geological setting, the whole peninsula is extremely volcanic active, covered with lava fields and volcanoes and small earthquakes are very common there.<br>
-During the middle ages, many eruptions occurred in Reykjanes, but no eruptions have been recorded there for the last 500 years.<br>
-<br>
-Logistics:<br>
-<ul>
-<li>Pickup will be at Harpa at 10:00</li>
-<li>Drop off will be at 15:00 at 3 locations, please choose one when booking:<br>
-<ul>
-<li>Harpa at Reykjavik</li>
-<li>Keflavik airport</li>
-<li>Blue Lagoon</li>
-</ul>
-</li>
-<li>Tickets cost 100eur/person and include food. You will be asked for your food preference upon booking.</li>
-<li><b>Last day for booking is Thursday, May 31, until evening.</b></li>
-</ul>
-<br>
-<strong>Please make sure that you specify the food and drop-off location when booking your ticket.</strong><br>
-<br>
-Book the tour here: <a href="https://guidetoiceland.is/book-holiday-trips/5afd3b8ab8e15?a=57240">https://guidetoiceland.is/book-holiday-trips/5afd3b8ab8e15?a=57240</a>.
-"""
 
   [params.team]
     enable = true
@@ -184,23 +154,8 @@ You can also reach us in private on Twitter or at the <a href="https://invite.sl
     center = true
     title = "Sponsors"
     description = ""
-    contents = """Help us make this event even better.<br>Please contact us at "team [at] gophercon [dot] is" for details."""
+    contents = """This could be you!.<br>Please contact us at "team [at] gophercon [dot] is" for details."""
 
-  [params.venue]
-      enable = true
-      title = "Venue"
-      subtitle = """The conference will take place at <a href="https://en.harpa.is">Harpa</a>"""
-      contents = """Harpa is one of Reykjavik‘s greatest and distinguished landmarks.<br/>
-It is a cultural and social centre in the heart of the city and features stunning views of the surrounding mountains and the North Atlantic Ocean.<br/>
-
-Harpa's residents are:<br/>
-- <a href="https://en.harpa.is/harpa/residents/iceland-symphony-orchestra/">Iceland Symphony Orchestra</a><br/>
-- <a href="https://en.harpa.is/harpa/residents/the-icelandic-opera/">The Icelandic Opera</a><br/>
-- <a href="https://en.harpa.is/harpa/residents/maximus-musicus/">Maximus Musicus</a><br/>
-- <a href="https://en.harpa.is/harpa/residents/the-reykjavik-big-band/">The Reykjavik Big Band</a><br/>
-
-Address: Austurbakki 2, 101 Reykjavík, Iceland<br/>
-Image copyright: https://en.harpa.is"""
 
   # Contact section
   [params.contact]
@@ -222,11 +177,6 @@ Image copyright: https://en.harpa.is"""
       icon = "fa-twitter"
       link = "https://twitter.com/gopherconeu"
       title = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-slack"
-      link = "https://gophers.slack.com/messages/gophercon-iceland/"
-      title = "Slack"
 
     #[[params.footer.quicklinks]]
     #  text = "Privacy Policy"
